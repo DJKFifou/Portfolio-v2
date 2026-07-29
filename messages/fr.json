@@ -5,5 +5,13 @@
 		"about": "À propos",
 		"contact": "Contact"
 	},
-	"hello_world": "Bonjour, {name} de fr!"
+	"hello_world": "Bonjour, {name} de fr!",
+	"homepage": {
+		"hero": {
+			"greeting": "Bonjour, je suis",
+			"name": "Maxime LUST",
+			"role": "Développeur Web Fullstack",
+			"cta": "Voir mes projets"
+		}
+	}
 }

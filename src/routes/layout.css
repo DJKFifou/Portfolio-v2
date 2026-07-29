@@ -114,6 +114,7 @@
 	--text-4\.5xl: 40px;
 	--text-6\.5xl: 64px;
 	--text-7\.5xl: 80px;
+	--text-10xl: 200px;
 }
 
 :root.theme-inverted {
