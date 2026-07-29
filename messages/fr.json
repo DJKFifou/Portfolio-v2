@@ -1,6 +1,9 @@
 {
-  "header": {
-    "projects": "Projets"
-  },
-  "hello_world": "Bonjour, {name} de fr!"
+	"header": {
+		"index": "Index",
+		"projects": "Projets",
+		"about": "À propos",
+		"contact": "Contact"
+	},
+	"hello_world": "Bonjour, {name} de fr!"
 }

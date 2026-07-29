@@ -13,7 +13,7 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<div class="mt-20">
+<div>
 	{@render children()}
 </div>
 

@@ -1,162 +1,209 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @font-face {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("/fonts/Karla/Karla-VariableFont_wght.ttf") format("truetype");
+	font-family: Karla;
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('/fonts/Karla/Karla-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Karla fallback";
-  src: local(Arial);
-  size-adjust: 100%;
-  ascent-override: normal;
-  descent-override: normal;
-  line-gap-override: normal;
+	font-family: 'Karla fallback';
+	src: local(Arial);
+	size-adjust: 100%;
+	ascent-override: normal;
+	descent-override: normal;
+	line-gap-override: normal;
 }
 
 @font-face {
-  font-family: DM Mono;
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("/fonts/DM/DMMono-Light.ttf") format("truetype");
+	font-family: DM Mono;
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url('/fonts/DM/DMMono-Light.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: DM Mono;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/DM/DMMono-Regular.ttf") format("truetype");
+	font-family: DM Mono;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/fonts/DM/DMMono-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: DM Mono;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("/fonts/DM/DMMono-Medium.ttf") format("truetype");
+	font-family: DM Mono;
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('/fonts/DM/DMMono-Medium.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "DM Mono fallback";
-  src: local(Arial);
-  size-adjust: 112%;
-  ascent-override: normal;
-  descent-override: normal;
-  line-gap-override: normal;
+	font-family: 'DM Mono fallback';
+	src: local(Arial);
+	size-adjust: 112%;
+	ascent-override: normal;
+	descent-override: normal;
+	line-gap-override: normal;
 }
 
 @font-face {
-  font-family: Obviously;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/Obviously/Obviously-Regular.otf") format("opentype");
+	font-family: Obviously;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/fonts/Obviously/Obviously-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: Obviously;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("/fonts/Obviously/Obviously-Medium.otf") format("opentype");
+	font-family: Obviously;
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('/fonts/Obviously/Obviously-Medium.otf') format('opentype');
 }
 
 @font-face {
-  font-family: Obviously;
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("/fonts/Obviously/Obviously-Semibold.otf") format("opentype");
+	font-family: Obviously;
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('/fonts/Obviously/Obviously-Semibold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: Obviously;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("/fonts/Obviously/Obviously-Bold.otf") format("opentype");
+	font-family: Obviously;
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('/fonts/Obviously/Obviously-Bold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: Obviously;
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("/fonts/Obviously/Obviously-Black.otf") format("opentype");
+	font-family: Obviously;
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url('/fonts/Obviously/Obviously-Black.otf') format('opentype');
 }
 
 @font-face {
-  font-family: "Obviously fallback";
-  src: local(Arial);
-  size-adjust: 111%;
-  ascent-override: 102%;
-  descent-override: normal;
-  line-gap-override: normal;
+	font-family: 'Obviously fallback';
+	src: local(Arial);
+	size-adjust: 111%;
+	ascent-override: 102%;
+	descent-override: normal;
+	line-gap-override: normal;
 }
 
 @theme {
-  --font-sans: "Karla", "Karla fallback", sans-serif;
-  --font-dm: "DM Mono", "DM Mono fallback", mono;
-  --font-obviously: "Obviously", "Obviously fallback", sans-serif;
-  --color-theme-black: #030301;
-  --color-theme-grey: #e3e4d8;
-  --color-theme-white: #fff;
-  --color-theme-offWhite: #fff7d9;
-  --color-theme-brown: #632713;
-  --color-theme-green: #1d3b26;
-  --tracking-percent: -2%;
-  --text-3\.5xl: 32px;
-  --text-4\.5xl: 40px;
-  --text-6\.5xl: 64px;
-  --text-7\.5xl: 80px;
+	--font-sans: 'Karla', 'Karla fallback', sans-serif;
+	--font-dm: 'DM Mono', 'DM Mono fallback', mono;
+	--font-obviously: 'Obviously', 'Obviously fallback', sans-serif;
+	--color-theme-black: #030301;
+	--color-theme-grey: #e3e4d8;
+	--color-theme-white: #fff;
+	--color-theme-offWhite: #fff7d9;
+	--color-theme-brown: #632713;
+	--color-theme-green: #1d3b26;
+	--tracking-percent: -2%;
+	--text-3\.5xl: 32px;
+	--text-4\.5xl: 40px;
+	--text-6\.5xl: 64px;
+	--text-7\.5xl: 80px;
+}
+
+:root.theme-inverted {
+	--color-theme-black: #fff;
+	--color-theme-white: #030301;
 }
 
 /** Add default behaviors **/
 button:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 summary::marker {
-  content: "";
-  display: block;
-  list-style: none;
+	content: '';
+	display: block;
+	list-style: none;
 }
 
 summary {
-  list-style: none;
+	list-style: none;
 }
 
 summary::-webkit-details-marker {
-  display: none;
+	display: none;
 }
 
 @utility visually-hidden {
-  position: absolute !important;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  word-wrap: normal !important;
+	position: absolute !important;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	word-wrap: normal !important;
 }
 
 @utility no-scrollbar {
-  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+	@apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }
 
 @utility h-screen-dvh {
-  height: 100vh;
-  height: 100dvh;
+	height: 100vh;
+	height: 100dvh;
 }
 
 @utility min-h-screen-dvh {
-  min-height: 100vh;
-  min-height: 100dvh;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+.lang-swap {
+	transition: color 0.3s cubic-bezier(1, 0, 0, 1);
+}
+
+.lang-swap:before {
+	position: absolute;
+	inset: 0;
+	height: 100%;
+	width: 100%;
+	transform-origin: 0 50%;
+	background-color: var(--color-theme-black);
+	scale: 0 1;
+	content: '';
+	transition: scale 0.3s cubic-bezier(1, 0, 0, 1);
+	z-index: -1;
+}
+
+.lang-swap:hover {
+	color: var(--color-theme-white);
+}
+
+.lang-swap-hover {
+	color: var(--color-theme-white);
+}
+
+.lang-swap:hover:before {
+	scale: 1 1;
+}
+
+.lang-swap-hover:before {
+	scale: 1 1;
+}
+
+.lang-switcher:has(.lang-swap:not(.lang-swap-hover):hover) .lang-swap-hover:before {
+	scale: 0 1;
+	color: var(--color-theme-black);
+}
+
+.lang-switcher:has(.lang-swap:not(.lang-swap-hover):hover) .lang-swap-hover {
+	color: var(--color-theme-black);
 }
