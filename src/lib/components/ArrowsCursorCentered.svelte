@@ -44,7 +44,7 @@
 		<!-- eslint-disable-next-line @typescript-eslint/no-unused-vars -->
 		{#each Array(72) as _, i (i)}
 			<span
-				class="aspect-square w-full bg-[url(/src/lib/assets/arrow-up-white.svg)] bg-size-[50%] bg-center bg-no-repeat"
+				class="aspect-square w-full bg-[url(/src/lib/assets/arrow-up-white.svg)] bg-size-[50%] bg-center bg-no-repeat [html.theme-inverted_&]:bg-[url(/src/lib/assets/arrow-up-black.svg)]"
 				style="transform: rotate({getRotation(i)}deg);"
 			></span>
 		{/each}

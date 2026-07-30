@@ -25,23 +25,22 @@
 		<a href={resolve('/')} class="border-r px-5 pt-3 pb-5 font-obviously text-4xl font-black">ML</a>
 		<div class="flex items-center gap-8 border-l pl-8 font-dm text-sm font-medium uppercase">
 			{#each menu as item, i (i)}
-				<a href={resolve(item.href)} class="group relative">
-					<div
-						aria-label={item.label}
-						class="flex
+				<a
+					href={resolve(item.href)}
+					class="group relative flex
 							*:relative *:*:block *:flex *:h-4 *:flex-col *:gap-1 *:overflow-hidden *:align-top
 							*:leading-none *:*:transition-transform *:*:duration-(--d) *:*:ease-in-out *:*:group-hover:-translate-y-[calc(100%+4px)]"
-					>
-						{#each item.label.split('') as letter, i (i)}
-							{#if letter === ' '}
-								<div class="w-1.5" aria-hidden="true"></div>
-							{:else}
-								<div style="--d: {100 + i * 50}ms">
-									<span>{letter}</span><span>{letter}</span>
-								</div>
-							{/if}
-						{/each}
-					</div>
+					aria-label={item.label}
+				>
+					{#each item.label.split('') as letter, i (i)}
+						{#if letter === ' '}
+							<div class="w-1.5" aria-hidden="true"></div>
+						{:else}
+							<div style="--d: {100 + i * 50}ms">
+								<span>{letter}</span><span>{letter}</span>
+							</div>
+						{/if}
+					{/each}
 				</a>
 			{/each}
 			<div class="flex h-full">
