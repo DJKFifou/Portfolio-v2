@@ -10,8 +10,8 @@
 
 <Hero />
 <RandomBinaryNumber />
-<div class="pb-8">
-	<Marquee>
+<div class="pb-4">
+	<Marquee classes="-mt-4">
 		<h2 class="pr-20 font-obviously text-9xl font-black uppercase">
 			{m['homepage.hero.projects']()}
 		</h2>

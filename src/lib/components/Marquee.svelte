@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	let { children, direction = 'left' } = $props();
+	let { children, direction = 'left', classes = '' } = $props();
 
 	let track: HTMLElement = $state();
 	let element: HTMLElement[] = $state([]);
@@ -60,7 +60,7 @@
 	});
 </script>
 
-<div class="flex w-full overflow-hidden" bind:clientWidth={containerWidth}>
+<div class={`flex w-full overflow-hidden ${classes}`} bind:clientWidth={containerWidth}>
 	<div class="flex" bind:this={track}>
 		<!-- eslint-disable-next-line @typescript-eslint/no-unused-vars -->
 		{#each Array(renderQty) as _, i (i)}
