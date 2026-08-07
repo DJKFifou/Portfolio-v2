@@ -110,6 +110,8 @@
 	--color-theme-brown: #632713;
 	--color-theme-green: #1d3b26;
 	--tracking-percent: -2%;
+	--text-3xs: 8px;
+	--text-2xs: 10px;
 	--text-3\.5xl: 32px;
 	--text-4\.5xl: 40px;
 	--text-6\.5xl: 64px;
@@ -211,4 +213,4 @@ summary::-webkit-details-marker {
 
 .clip-path-0 {
 	clip-path: inset(0px);
-} 
+}

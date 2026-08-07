@@ -8,3 +8,4 @@
 
 <ProjectsScrolling />
 <RandomBinaryNumber />
+<RandomBinaryNumber />

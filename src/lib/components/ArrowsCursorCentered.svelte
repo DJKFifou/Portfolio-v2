@@ -5,20 +5,35 @@
 
 	let mouseX = $state(0);
 	let mouseY = $state(0);
+	let isDesktop = $state(false);
 
 	const cols = 12;
 	const rows = 6;
 
 	$effect(() => {
+		const mediaQuery = window.matchMedia('(min-width: 1024px)');
+
+		function updateDevice() {
+			isDesktop = mediaQuery.matches;
+		}
+
+		updateDevice();
+		mediaQuery.addEventListener('change', updateDevice);
+
 		function handleMouseMove(e: MouseEvent) {
-			if (!container) return;
+			if (!container || !isDesktop) return;
+
 			const rect = container.getBoundingClientRect();
 			mouseX = e.clientX - rect.left;
 			mouseY = e.clientY - rect.top;
 		}
 
 		window.addEventListener('mousemove', handleMouseMove);
-		return () => window.removeEventListener('mousemove', handleMouseMove);
+
+		return () => {
+			mediaQuery.removeEventListener('change', updateDevice);
+			window.removeEventListener('mousemove', handleMouseMove);
+		};
 	});
 
 	function getRotation(index: number) {
@@ -34,7 +49,11 @@
 		const x = col * cellWidth + cellWidth / 2;
 		const y = row * cellHeight + cellHeight / 2;
 
-		const angle = Math.atan2(mouseY - y, mouseX - x) * (180 / Math.PI);
+		const targetX = isDesktop ? mouseX : rect.width / 2;
+		const targetY = isDesktop ? mouseY : rect.height / 2;
+
+		const angle = Math.atan2(targetY - y, targetX - x) * (180 / Math.PI);
+
 		return angle + 90;
 	}
 </script>
@@ -49,7 +68,6 @@
 			></span>
 		{/each}
 	</div>
-
 	<div class="pointer-events-none absolute inset-0 flex items-center justify-center">
 		<a
 			href={resolve('/contact')}

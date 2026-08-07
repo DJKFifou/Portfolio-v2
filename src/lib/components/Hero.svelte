@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { m } from '$lib/paraglide/messages.js';
-	import Marquee from '$lib/components/Marquee.svelte';
 	const title = m['homepage.hero.name']();
 	const titleLetters = title.split('');
 
@@ -99,17 +98,5 @@
 				</div>
 			{/each}
 		</h1>
-	</div>
-	<div>
-		<Marquee>
-			<h2 class="pr-20 font-obviously text-9xl font-black uppercase">
-				{m['homepage.hero.projects']()}
-			</h2>
-		</Marquee>
-		<Marquee direction="right">
-			<h2 class="pr-20 font-obviously text-9xl font-black uppercase">
-				{m['homepage.hero.projects']()}
-			</h2>
-		</Marquee>
 	</div>
 </section>
