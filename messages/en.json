@@ -8,10 +8,11 @@
 	"hello_world": "Hello, {name} from en!",
 	"homepage": {
 		"hero": {
-			"greeting": "Bonjour, je suis",
+			"greeting": "Hello, I am",
 			"name": "Maxime LUST",
-			"role": "Développeur Web Fullstack",
-			"cta": "Voir mes projets"
+			"role": "Web Developer",
+			"cta": "View my projects",
+			"projects": "projects"
 		}
 	}
 }

@@ -10,8 +10,9 @@
 		"hero": {
 			"greeting": "Bonjour, je suis",
 			"name": "Maxime LUST",
-			"role": "Développeur Web Fullstack",
-			"cta": "Voir mes projets"
+			"role": "Développeur Web",
+			"cta": "Voir mes projets",
+			"projects": "projets"
 		}
 	}
 }

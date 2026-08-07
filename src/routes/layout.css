@@ -208,3 +208,7 @@ summary::-webkit-details-marker {
 .lang-switcher:has(.lang-swap:not(.lang-swap-hover):hover) .lang-swap-hover {
 	color: var(--color-theme-black);
 }
+
+.clip-path-0 {
+	clip-path: inset(0px);
+} 
