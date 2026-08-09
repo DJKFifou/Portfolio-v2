@@ -214,3 +214,7 @@ summary::-webkit-details-marker {
 .clip-path-0 {
 	clip-path: inset(0px);
 }
+
+.mask-image {
+	mask-image: radial-gradient(circle, black 0%, black 55%, transparent 100%);
+}

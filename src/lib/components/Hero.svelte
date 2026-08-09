@@ -83,7 +83,7 @@
 	<div
 		class="absolute top-1/2 left-1/2 flex -translate-1/2 items-center justify-center text-center"
 	>
-		<h1 aria-label={title} class="flex">
+		<h1 aria-label={title} class="flex text-theme-black">
 			{#each titleLetters as letter, i (i)}
 				<div
 					bind:this={lettersContainer[i]}
