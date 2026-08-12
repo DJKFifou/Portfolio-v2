@@ -164,6 +164,11 @@ summary::-webkit-details-marker {
 	height: 100dvh;
 }
 
+@utility h-screen-dvh-header {
+	height: calc(100vh - 72px);
+	height: calc(100dvh - 72px);
+}
+
 @utility min-h-screen-dvh {
 	min-height: 100vh;
 	min-height: 100dvh;
