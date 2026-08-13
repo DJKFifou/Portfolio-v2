@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
 	import { m } from '$lib/paraglide/messages.js';
 	import type { PageProps } from './$types';
 	import type { ProjectType } from '$lib/projects';
@@ -66,15 +65,6 @@
 <section class="m-25 mt-35 flex flex-col gap-16">
 	<h2 class="font-obviously text-7xl font-black text-theme-black">{m['header.projects']()}</h2>
 	<div class="flex flex-wrap gap-8">
-		{#each data.projects as project (project.slug)}
-			{@render Project(project)}
-		{/each}
-		{#each data.projects as project (project.slug)}
-			{@render Project(project)}
-		{/each}
-		{#each data.projects as project (project.slug)}
-			{@render Project(project)}
-		{/each}
 		{#each data.projects as project (project.slug)}
 			{@render Project(project)}
 		{/each}

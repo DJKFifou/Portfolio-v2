@@ -100,6 +100,7 @@
 	<div
 		bind:this={tagsElement}
 		class="text-mono fixed top-55 left-1/2 flex w-full -translate-1/2 justify-center gap-2 text-xs text-wrap"
+		class:hidden={scale === 1}
 		style={`transform: translateY(${elementsTranslate}px); opacity: ${opacity};`}
 	>
 		{#each data.tags as tag, i (i)}
@@ -127,6 +128,7 @@
 	<div
 		bind:this={subtitleElement}
 		class="fixed bottom-0 left-1/2 flex -translate-x-1/2 flex-col items-center gap-6 text-center text-theme-black"
+		class:hidden={scale === 1}
 		style={`transform: translateY(-${elementsTranslate}px); opacity: ${opacity};`}
 	>
 		<p class="text-xl font-medium">{data.subtitle}</p>
@@ -157,4 +159,19 @@
 			</div>
 		{/each}
 	</div>
+</section>
+
+<section>
+	{#if data.images?.gallery}
+		<div class="mx-4 grid grid-cols-2 gap-4">
+			{#each data.images.gallery as image, i (i)}
+				<img src={image.src} alt={image.alt} class="h-full w-full object-cover" />
+			{/each}
+		</div>
+	{/if}
+</section>
+
+<section class="flex flex-col items-center gap-20 py-20 text-center">
+	<h2 class="font-obviously text-4xl font-bold">Contexte & Participation</h2>
+	<p class="max-w-3xl text-2xl font-medium">{@html data.context}</p>
 </section>
