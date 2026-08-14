@@ -174,6 +174,750 @@ export const projects: ProjectType[] = [
 		tags: ['Jeu', 'Solo', 'Site web'],
 		slug: 'geoquizz',
 		external_link: 'https://geoquizz.maximelust.fr'
+	},
+	{
+		title: 'Primizie',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Xplora App',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Xplora Website',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Jaya',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Lagrange',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Tonnellerie Bel Air',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Hatchr',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Jigogne',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Tarot Africain',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'La Burie',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Metal Access',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'FixMyStreet',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Nautilus',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Egol',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Porsche',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Animaux du futur',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Nuit du Musba',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'The Story of Tetyana',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Amedia',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Spooon',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Too Well Stolen',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'Bovélo',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'CAPC',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
+	},
+	{
+		title: 'The Mornful Painter',
+		subtitle: '',
+		description: '',
+		images: {
+			home: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			moodboard: {
+				src: '/src/lib/assets/images/.png',
+				alt: ''
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/.png',
+					alt: ''
+				}
+			]
+		},
+		technologies: [
+			{
+				title: '',
+				icon: '/src/lib/assets/icons/.svg'
+			}
+		],
+		context: '',
+		tags: ['', '', ''],
+		slug: '',
+		external_link: ''
 	}
 ];
 

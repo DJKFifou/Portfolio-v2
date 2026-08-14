@@ -25,9 +25,6 @@
 					class="project-image absolute inset-0 h-[120%] w-full origin-center object-cover transition-all duration-300 ease-in-out group-hover:scale-75"
 				/>
 			{/if}
-			<div
-				class="absolute inset-0 bg-yellow-500 opacity-0 mix-blend-color transition-all duration-300 ease-in-out group-hover:opacity-100"
-			></div>
 
 			<div
 				class="absolute inset-0 bg-linear-to-t from-theme-black/80 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
