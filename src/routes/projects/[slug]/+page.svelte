@@ -172,6 +172,6 @@
 </section>
 
 <section class="flex flex-col items-center gap-20 py-20 text-center">
-	<h2 class="font-obviously text-4xl font-bold">Contexte & Participation</h2>
+	<h2 class="font-obviously text-4xl font-bold">Contexte</h2>
 	<p class="max-w-3xl text-2xl font-medium">{@html data.context}</p>
 </section>

@@ -15,12 +15,20 @@ export const projects: ProjectType[] = [
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/LSD/LSD_Home.png',
-					alt: "Let's Summon Demons Gallery 1"
+					src: '/src/lib/assets/images/LSD/LSD_Lobby.png',
+					alt: "Let's Summon Demons Lobby"
 				},
 				{
-					src: '/src/lib/assets/images/LSD/LSD_Moodboard.png',
-					alt: "Let's Summon Demons Moodboard"
+					src: '/src/lib/assets/images/LSD/LSD_LobbyCreated.png',
+					alt: "Let's Summon Demons Lobby created"
+				},
+				{
+					src: '/src/lib/assets/images/LSD/LSD_LobbyJoined.png',
+					alt: "Let's Summon Demons Lobby joined"
+				},
+				{
+					src: '/src/lib/assets/images/LSD/LSD_Gameplay.png',
+					alt: "Let's Summon Demons Gameplay"
 				}
 			]
 		},
@@ -52,6 +60,10 @@ export const projects: ProjectType[] = [
 		subtitle: 'Subtitle for Marin French Cheese',
 		description: 'Description for Marin French Cheese',
 		images: {
+			home: {
+				src: '/src/lib/assets/images/MFC/MFC_Home.png',
+				alt: 'Marin French Cheese Home'
+			},
 			moodboard: {
 				src: '/src/lib/assets/images/MFC/MFC_Moodboard.png',
 				alt: 'Marin French Cheese Moodboard'
@@ -82,6 +94,10 @@ export const projects: ProjectType[] = [
 		subtitle: 'Subtitle for White-Toque',
 		description: 'Description for White-Toque',
 		images: {
+			home: {
+				src: '/src/lib/assets/images/White-Toque/White-Toque_Home.png',
+				alt: 'White-Toque Home'
+			},
 			moodboard: {
 				src: '/src/lib/assets/images/White-Toque/White-Toque_Moodboard.png',
 				alt: 'White-Toque Moodboard'
@@ -181,17 +197,29 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Primizie/Primizie_Home.png',
+				alt: 'Primizie Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Primizie/Primizie_Moodboard.png',
+				alt: 'Primizie Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Primizie/Primizie_Presentation.png',
+					alt: 'Primizie Presentation'
+				},
+				{
+					src: '/src/lib/assets/images/Primizie/Primizie_Slider.png',
+					alt: 'Primizie Slider'
+				},
+				{
+					src: '/src/lib/assets/images/Primizie/Primizie_Cards.png',
+					alt: 'Primizie Cards'
+				},
+				{
+					src: '/src/lib/assets/images/Primizie/Primizie_Footer.png',
+					alt: 'Primizie Footer'
 				}
 			]
 		},
@@ -203,7 +231,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'primizie',
 		external_link: ''
 	},
 	{
@@ -212,17 +240,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Xplora/App/Xplora_App_Home.png',
+				alt: 'Xplora App Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Chat.png',
+					alt: 'Xplora App chat'
+				},
+				{
+					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Live.png',
+					alt: 'Xplora App live'
+				},
+				{
+					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Students.png',
+					alt: 'Xplora App students'
+				},
+				{
+					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Assignments.png',
+					alt: 'Xplora App assignments'
 				}
 			]
 		},
@@ -234,7 +270,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'xplora-app',
 		external_link: ''
 	},
 	{
@@ -243,17 +279,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Home.png',
+				alt: 'Xplora Website Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Programs.png',
+					alt: 'Xplora Website Programs'
+				},
+				{
+					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_ProgramsGrid.png',
+					alt: 'Xplora Website ProgramsGrid'
+				},
+				{
+					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Destinations.png',
+					alt: 'Xplora Website Destinations'
+				},
+				{
+					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Contact.png',
+					alt: 'Xplora Website Contact'
 				}
 			]
 		},
@@ -265,7 +309,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'xplora-website',
 		external_link: ''
 	},
 	{
@@ -274,17 +318,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Jaya/Jaya_Home.png',
+				alt: 'Jaya Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Jaya/Jaya_Presentation.png',
+					alt: 'Jaya Presentation'
+				},
+				{
+					src: '/src/lib/assets/images/Jaya/Jaya_Box.png',
+					alt: 'Jaya Box'
+				},
+				{
+					src: '/src/lib/assets/images/Jaya/Jaya_Shopping.png',
+					alt: 'Jaya Shopping'
+				},
+				{
+					src: '/src/lib/assets/images/Jaya/Jaya_Footer.png',
+					alt: 'Jaya Footer'
 				}
 			]
 		},
@@ -296,7 +348,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'jaya',
 		external_link: ''
 	},
 	{
@@ -305,17 +357,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Lagrange/Lagrange_Home.png',
+				alt: 'Lagrange Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Lagrange/Lagrange_Header.png',
+					alt: 'Lagrange Header'
+				},
+				{
+					src: '/src/lib/assets/images/Lagrange/Lagrange_Gallery.png',
+					alt: 'Lagrange Gallery'
+				},
+				{
+					src: '/src/lib/assets/images/Lagrange/Lagrange_Slider.png',
+					alt: 'Lagrange Slider'
+				},
+				{
+					src: '/src/lib/assets/images/Lagrange/Lagrange_Collection.png',
+					alt: 'Lagrange Collection'
 				}
 			]
 		},
@@ -327,7 +387,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'lagrange',
 		external_link: ''
 	},
 	{
@@ -336,17 +396,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Home.png',
+				alt: 'Tonnellerie Bel Air Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Header.png',
+					alt: 'Tonnellerie Bel Air Header'
+				},
+				{
+					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Presentation.png',
+					alt: 'Tonnellerie Bel Air Presentation'
+				},
+				{
+					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Gamme.png',
+					alt: 'Tonnellerie Bel Air Gamme'
+				},
+				{
+					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Handmade.png',
+					alt: 'Tonnellerie Bel Air Handmade'
 				}
 			]
 		},
@@ -358,7 +426,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'tonnellerie-bel-air',
 		external_link: ''
 	},
 	{
@@ -367,17 +435,13 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Hatchr/Hatchr_Home.png',
+				alt: 'Hatchr Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Hatchr/Hatchr_Gallery_1.png',
+					alt: 'Hatchr Gallery 1'
 				}
 			]
 		},
@@ -389,7 +453,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'hatchr',
 		external_link: ''
 	},
 	{
@@ -398,17 +462,13 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Jigogne/Jigogne_Home.png',
+				alt: 'Jigogne Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Jigogne/Jigogne_Gallery_1.png',
+					alt: 'Jigogne Gallery 1'
 				}
 			]
 		},
@@ -420,7 +480,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'jigogne',
 		external_link: ''
 	},
 	{
@@ -429,17 +489,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Tarot-Africain/Tarot-Africain_Home.png',
+				alt: 'Tarot Africain Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Tarot-Africain/Tarot-Africain_Lobby.png',
+					alt: 'Tarot Africain Lobby'
+				},
+				{
+					src: '/src/lib/assets/images/Tarot-Africain/Tarot-Africain_Gameplay.png',
+					alt: 'Tarot Africain Gameplay'
 				}
 			]
 		},
@@ -451,7 +511,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'tarot-africain',
 		external_link: ''
 	},
 	{
@@ -460,17 +520,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/LaBurie/LaBurie_Home.png',
+				alt: 'La Burie Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/LaBurie/LaBurie_About.png',
+					alt: 'La Burie About'
+				},
+				{
+					src: '/src/lib/assets/images/LaBurie/LaBurie_Activities.png',
+					alt: 'La Burie Activities'
+				},
+				{
+					src: '/src/lib/assets/images/LaBurie/LaBurie_Spaces.png',
+					alt: 'La Burie Spaces'
+				},
+				{
+					src: '/src/lib/assets/images/LaBurie/LaBurie_Contact.png',
+					alt: 'La Burie Contact'
 				}
 			]
 		},
@@ -482,7 +550,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'laburie',
 		external_link: ''
 	},
 	{
@@ -491,17 +559,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Metal Access/Metal_Access_Home.png',
+				alt: 'Metal Access Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Metal Access/Metal_Access_Moodboard.png',
+				alt: 'Metal Access Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Metal Access/Metal_Access_Gallery_1.png',
+					alt: 'Metal Access Gallery 1'
 				}
 			]
 		},
@@ -513,7 +581,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'metal-access',
 		external_link: ''
 	},
 	{
@@ -522,17 +590,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Home.png',
+				alt: 'FixMyStreet Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Moodboard.png',
+				alt: 'FixMyStreet Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Gallery_1.png',
+					alt: 'FixMyStreet Gallery 1'
 				}
 			]
 		},
@@ -544,7 +612,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'fixmystreet',
 		external_link: ''
 	},
 	{
@@ -553,17 +621,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Nautilus/Nautilus_Home.png',
+				alt: 'Nautilus Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Nautilus/Nautilus_Moodboard.png',
+				alt: 'Nautilus Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Nautilus/Nautilus_Gallery_1.png',
+					alt: 'Nautilus Gallery 1'
 				}
 			]
 		},
@@ -575,7 +643,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'nautilus',
 		external_link: ''
 	},
 	{
@@ -584,17 +652,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Egol/Egol_Home.png',
+				alt: 'Egol Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Egol/Egol_Moodboard.png',
+				alt: 'Egol Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Egol/Egol_Gallery_1.png',
+					alt: 'Egol Gallery 1'
 				}
 			]
 		},
@@ -606,7 +674,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'egol',
 		external_link: ''
 	},
 	{
@@ -615,17 +683,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Porsche/Porsche_Home.png',
+				alt: 'Porsche Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Porsche/Porsche_Moodboard.png',
+				alt: 'Porsche Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Porsche/Porsche_Gallery_1.png',
+					alt: 'Porsche Gallery 1'
 				}
 			]
 		},
@@ -637,7 +705,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'porsche',
 		external_link: ''
 	},
 	{
@@ -646,17 +714,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Animaux du futur/Animaux_du_futur_Home.png',
+				alt: 'Animaux du futur Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Animaux du futur/Animaux_du_futur_Moodboard.png',
+				alt: 'Animaux du futur Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Animaux du futur/Animaux_du_futur_Gallery_1.png',
+					alt: 'Animaux du futur Gallery 1'
 				}
 			]
 		},
@@ -668,7 +736,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'animaux-du-futur',
 		external_link: ''
 	},
 	{
@@ -677,17 +745,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Nuit du Musba/Nuit_du_Musba_Home.png',
+				alt: 'Nuit du Musba Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Nuit du Musba/Nuit_du_Musba_Moodboard.png',
+				alt: 'Nuit du Musba Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Nuit du Musba/Nuit_du_Musba_Gallery_1.png',
+					alt: 'Nuit du Musba Gallery 1'
 				}
 			]
 		},
@@ -699,7 +767,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'nuit-du-musba',
 		external_link: ''
 	},
 	{
@@ -708,17 +776,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/The Story of Tetyana/The Story of Tetyana_Home.png',
+				alt: 'The Story of Tetyana Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/The Story of Tetyana/The Story of Tetyana_Moodboard.png',
+				alt: 'The Story of Tetyana Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/The Story of Tetyana/The Story of Tetyana_Gallery_1.png',
+					alt: 'The Story of Tetyana Gallery 1'
 				}
 			]
 		},
@@ -730,7 +798,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'the-story-of-tetyana',
 		external_link: ''
 	},
 	{
@@ -739,17 +807,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Amedia/Amedia_Home.png',
+				alt: 'Amedia Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Amedia/Amedia_Moodboard.png',
+				alt: 'Amedia Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Amedia/Amedia_Gallery_1.png',
+					alt: 'Amedia Gallery 1'
 				}
 			]
 		},
@@ -761,7 +829,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'amedia',
 		external_link: ''
 	},
 	{
@@ -770,17 +838,17 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Spooon/Spooon_Home.png',
+				alt: 'Spooon Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Spooon/Spooon_Moodboard.png',
+				alt: 'Spooon Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Spooon/Spooon_Gallery_1.png',
+					alt: 'Spooon Gallery 1'
 				}
 			]
 		},
@@ -792,7 +860,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'spooon',
 		external_link: ''
 	},
 	{
@@ -801,17 +869,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Home.png',
+				alt: 'Too Well Stolen Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Start.png',
+					alt: 'Too Well Stolen Start'
+				},
+				{
+					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Painting.png',
+					alt: 'Too Well Stolen Painting'
+				},
+				{
+					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Suspect.png',
+					alt: 'Too Well Stolen Suspect'
+				},
+				{
+					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Interrogated.png',
+					alt: 'Too Well Stolen Interrogated'
 				}
 			]
 		},
@@ -823,7 +899,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'too-well-stolen',
 		external_link: ''
 	},
 	{
@@ -832,17 +908,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/Bovelo/Bovelo_Home.png',
+				alt: 'Bovélo Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/Bovelo/Bovelo_Footer.png',
+					alt: 'Bovélo Footer'
+				},
+				{
+					src: '/src/lib/assets/images/Bovelo/Bovelo_App_Home.png',
+					alt: 'Bovélo App Home'
+				},
+				{
+					src: '/src/lib/assets/images/Bovelo/Bovelo_App_Station.png',
+					alt: 'Bovélo App Station'
+				},
+				{
+					src: '/src/lib/assets/images/Bovelo/Bovelo_App_Bike.png',
+					alt: 'Bovélo App Bike'
 				}
 			]
 		},
@@ -854,7 +938,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'bovelo',
 		external_link: ''
 	},
 	{
@@ -863,17 +947,29 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/CAPC/CAPC_Home.png',
+				alt: 'CAPC Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/CAPC/CAPC_Moodboard.png',
+				alt: 'CAPC Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/CAPC/CAPC_Evenement.png',
+					alt: 'CAPC Evenement'
+				},
+				{
+					src: '/src/lib/assets/images/CAPC/CAPC_ComingSoon.png',
+					alt: 'CAPC Coming Soon'
+				},
+				{
+					src: '/src/lib/assets/images/CAPC/CAPC_Exposition.png',
+					alt: 'CAPC Exposition'
+				},
+				{
+					src: '/src/lib/assets/images/CAPC/CAPC_Footer.png',
+					alt: 'CAPC Footer'
 				}
 			]
 		},
@@ -885,7 +981,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'capc',
 		external_link: ''
 	},
 	{
@@ -894,17 +990,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/.png',
-				alt: ''
+				src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Home.png',
+				alt: 'The Mornful Painter Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/.png',
-					alt: ''
+					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Gameplay.png',
+					alt: 'The Mornful Painter Gameplay'
+				},
+				{
+					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Ladder.png',
+					alt: 'The Mornful Painter Ladder'
+				},
+				{
+					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Painting.png',
+					alt: 'The Mornful Painter Painting'
+				},
+				{
+					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Mirror.png',
+					alt: 'The Mornful Painter Mirror'
 				}
 			]
 		},
@@ -916,7 +1020,7 @@ export const projects: ProjectType[] = [
 		],
 		context: '',
 		tags: ['', '', ''],
-		slug: '',
+		slug: 'the-mornful-painter',
 		external_link: ''
 	}
 ];
