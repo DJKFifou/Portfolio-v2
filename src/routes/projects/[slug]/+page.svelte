@@ -150,7 +150,7 @@
 </section>
 
 <section class="flex flex-col items-center gap-20 py-20">
-	<p class="font-obviously text-4xl font-bold">Technologies choisies</p>
+	<p class="font-obviously text-4xl font-bold">Technologies</p>
 	<div class="flex max-w-xl flex-wrap justify-center gap-16">
 		{#each data.technologies as technology (technology.title)}
 			<div class="flex flex-col items-center gap-4">
@@ -174,4 +174,13 @@
 <section class="flex flex-col items-center gap-20 py-20 text-center">
 	<h2 class="font-obviously text-4xl font-bold">Contexte</h2>
 	<p class="max-w-3xl text-2xl font-medium">{@html data.context}</p>
+	<a
+		href={data.external_link}
+		target="_blank"
+		rel="noreferrer"
+		class="flex items-center gap-1 rounded-full bg-theme-black px-4 py-1 text-theme-white"
+	>
+		Visiter le site
+		<img src="/src/lib/assets/arrow.svg" alt="Left Arrow" class="h-4 object-cover" />
+	</a>
 </section>

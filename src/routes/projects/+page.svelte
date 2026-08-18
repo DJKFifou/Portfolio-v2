@@ -51,6 +51,7 @@
 			<a
 				href={project.external_link}
 				target="_blank"
+				rel="noreferrer"
 				class="absolute right-4 bottom-4 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 			>
 				<img src="/src/lib/assets/arrow.svg" alt="Left Arrow" class="h-8 w-8" />
