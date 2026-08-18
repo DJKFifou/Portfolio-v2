@@ -67,7 +67,25 @@ export const projects: ProjectType[] = [
 			moodboard: {
 				src: '/src/lib/assets/images/MFC/MFC_Moodboard.png',
 				alt: 'Marin French Cheese Moodboard'
-			}
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/MFC/MFC_Craft.png',
+					alt: 'Marin French Cheese Craft'
+				},
+				{
+					src: '/src/lib/assets/images/MFC/MFC_Slider.png',
+					alt: 'Marin French Cheese Slider'
+				},
+				{
+					src: '/src/lib/assets/images/MFC/MFC_VisitUs.png',
+					alt: 'Marin French Cheese Visit Us'
+				},
+				{
+					src: '/src/lib/assets/images/MFC/MFC_SingleProduct.png',
+					alt: 'Marin French Cheese Single Product'
+				}
+			]
 		},
 		technologies: [
 			{
@@ -101,7 +119,25 @@ export const projects: ProjectType[] = [
 			moodboard: {
 				src: '/src/lib/assets/images/White-Toque/White-Toque_Moodboard.png',
 				alt: 'White-Toque Moodboard'
-			}
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/White-Toque/White-Toque_Products.png',
+					alt: 'White-Toque Products'
+				},
+				{
+					src: '/src/lib/assets/images/White-Toque/White-Toque_ProductPage.png',
+					alt: 'White-Toque Product Page'
+				},
+				{
+					src: '/src/lib/assets/images/White-Toque/White-Toque_Slider.png',
+					alt: 'White-Toque Slider'
+				},
+				{
+					src: '/src/lib/assets/images/White-Toque/White-Toque_Footer.png',
+					alt: 'White-Toque Footer'
+				}
+			]
 		},
 		technologies: [
 			{
@@ -135,7 +171,25 @@ export const projects: ProjectType[] = [
 			home: {
 				src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Home.png',
 				alt: 'Taillan-Medoc Home'
-			}
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Header.png',
+					alt: 'Taillan-Medoc Header'
+				},
+				{
+					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Sliders.png',
+					alt: 'Taillan-Medoc Sliders'
+				},
+				{
+					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Article.png',
+					alt: 'Taillan-Medoc Article'
+				},
+				{
+					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Footer.png',
+					alt: 'Taillan-Medoc Footer'
+				}
+			]
 		},
 		technologies: [
 			{
@@ -169,7 +223,25 @@ export const projects: ProjectType[] = [
 			home: {
 				src: '/src/lib/assets/images/Geoquizz/Geoquizz_Home.png',
 				alt: 'Geoquizz Home'
-			}
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Quizz.png',
+					alt: 'Geoquizz Quizz'
+				},
+				{
+					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Lists_Flags.png',
+					alt: 'Geoquizz Lists Flags'
+				},
+				{
+					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Lists_States.png',
+					alt: 'Geoquizz Lists States'
+				},
+				{
+					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Lists_Countries.png',
+					alt: 'Geoquizz Lists Countries'
+				}
+			]
 		},
 		technologies: [
 			{
@@ -440,8 +512,20 @@ export const projects: ProjectType[] = [
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Hatchr/Hatchr_Gallery_1.png',
-					alt: 'Hatchr Gallery 1'
+					src: '/src/lib/assets/images/Hatchr/Hatchr_Partners.png',
+					alt: 'Hatchr Partners'
+				},
+				{
+					src: '/src/lib/assets/images/Hatchr/Hatchr_Slider.png',
+					alt: 'Hatchr Slider'
+				},
+				{
+					src: '/src/lib/assets/images/Hatchr/Hatchr_Contact.png',
+					alt: 'Hatchr Contact'
+				},
+				{
+					src: '/src/lib/assets/images/Hatchr/Hatchr_Footer.png',
+					alt: 'Hatchr Footer'
 				}
 			]
 		},
@@ -467,8 +551,20 @@ export const projects: ProjectType[] = [
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Jigogne/Jigogne_Gallery_1.png',
-					alt: 'Jigogne Gallery 1'
+					src: '/src/lib/assets/images/Jigogne/Jigogne_About.png',
+					alt: 'Jigogne About'
+				},
+				{
+					src: '/src/lib/assets/images/Jigogne/Jigogne_Services.png',
+					alt: 'Jigogne Services'
+				},
+				{
+					src: '/src/lib/assets/images/Jigogne/Jigogne_Interventions.png',
+					alt: 'Jigogne Interventions'
+				},
+				{
+					src: '/src/lib/assets/images/Jigogne/Jigogne_Footer.png',
+					alt: 'Jigogne Footer'
 				}
 			]
 		},
@@ -559,17 +655,25 @@ export const projects: ProjectType[] = [
 		description: '',
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Metal Access/Metal_Access_Home.png',
+				src: '/src/lib/assets/images/Metal-Access/Metal-Access_Home.png',
 				alt: 'Metal Access Home'
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/Metal Access/Metal_Access_Moodboard.png',
-				alt: 'Metal Access Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Metal Access/Metal_Access_Gallery_1.png',
-					alt: 'Metal Access Gallery 1'
+					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Test.png',
+					alt: 'Metal Access Test'
+				},
+				{
+					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Handicaps.png',
+					alt: 'Metal Access Handicaps'
+				},
+				{
+					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Federation.png',
+					alt: 'Metal Access Federation'
+				},
+				{
+					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Signaletique.png',
+					alt: 'Metal Access Signaletique'
 				}
 			]
 		},
@@ -593,14 +697,15 @@ export const projects: ProjectType[] = [
 				src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Home.png',
 				alt: 'FixMyStreet Home'
 			},
-			moodboard: {
-				src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Moodboard.png',
-				alt: 'FixMyStreet Moodboard'
-			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Gallery_1.png',
-					alt: 'FixMyStreet Gallery 1'
+					src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Login.png',
+					alt: 'FixMyStreet Login'
+				},
+				
+				{
+					src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Signalement.png',
+					alt: 'FixMyStreet Signalement'
 				}
 			]
 		},
@@ -624,14 +729,14 @@ export const projects: ProjectType[] = [
 				src: '/src/lib/assets/images/Nautilus/Nautilus_Home.png',
 				alt: 'Nautilus Home'
 			},
-			moodboard: {
-				src: '/src/lib/assets/images/Nautilus/Nautilus_Moodboard.png',
-				alt: 'Nautilus Moodboard'
-			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Nautilus/Nautilus_Gallery_1.png',
-					alt: 'Nautilus Gallery 1'
+					src: '/src/lib/assets/images/Nautilus/Nautilus_Calme.png',
+					alt: 'Nautilus Calme'
+				},
+				{
+					src: '/src/lib/assets/images/Nautilus/Nautilus_Etouffement.png',
+					alt: 'Nautilus Etouffement'
 				}
 			]
 		},
@@ -655,14 +760,22 @@ export const projects: ProjectType[] = [
 				src: '/src/lib/assets/images/Egol/Egol_Home.png',
 				alt: 'Egol Home'
 			},
-			moodboard: {
-				src: '/src/lib/assets/images/Egol/Egol_Moodboard.png',
-				alt: 'Egol Moodboard'
-			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Egol/Egol_Gallery_1.png',
-					alt: 'Egol Gallery 1'
+					src: '/src/lib/assets/images/Egol/Egol_Solutions.png',
+					alt: 'Egol Solutions'
+				},
+				{
+					src: '/src/lib/assets/images/Egol/Egol_Slider.png',
+					alt: 'Egol Slider'
+				},
+				{
+					src: '/src/lib/assets/images/Egol/Egol_Testimonials.png',
+					alt: 'Egol Testimonials'
+				},
+				{
+					src: '/src/lib/assets/images/Egol/Egol_Footer.png',
+					alt: 'Egol Footer'
 				}
 			]
 		},
@@ -686,14 +799,22 @@ export const projects: ProjectType[] = [
 				src: '/src/lib/assets/images/Porsche/Porsche_Home.png',
 				alt: 'Porsche Home'
 			},
-			moodboard: {
-				src: '/src/lib/assets/images/Porsche/Porsche_Moodboard.png',
-				alt: 'Porsche Moodboard'
-			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Porsche/Porsche_Gallery_1.png',
-					alt: 'Porsche Gallery 1'
+					src: '/src/lib/assets/images/Porsche/Porsche_Presentation.png',
+					alt: 'Porsche Presentation'
+				},
+				{
+					src: '/src/lib/assets/images/Porsche/Porsche_Description.png',
+					alt: 'Porsche Description'
+				},
+				{
+					src: '/src/lib/assets/images/Porsche/Porsche_Moteur.png',
+					alt: 'Porsche Moteur'
+				},
+				{
+					src: '/src/lib/assets/images/Porsche/Porsche_Personnalisation.png',
+					alt: 'Porsche Personnalisation'
 				}
 			]
 		},
@@ -706,161 +827,6 @@ export const projects: ProjectType[] = [
 		context: '',
 		tags: ['', '', ''],
 		slug: 'porsche',
-		external_link: ''
-	},
-	{
-		title: 'Animaux du futur',
-		subtitle: '',
-		description: '',
-		images: {
-			home: {
-				src: '/src/lib/assets/images/Animaux du futur/Animaux_du_futur_Home.png',
-				alt: 'Animaux du futur Home'
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/Animaux du futur/Animaux_du_futur_Moodboard.png',
-				alt: 'Animaux du futur Moodboard'
-			},
-			gallery: [
-				{
-					src: '/src/lib/assets/images/Animaux du futur/Animaux_du_futur_Gallery_1.png',
-					alt: 'Animaux du futur Gallery 1'
-				}
-			]
-		},
-		technologies: [
-			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
-			}
-		],
-		context: '',
-		tags: ['', '', ''],
-		slug: 'animaux-du-futur',
-		external_link: ''
-	},
-	{
-		title: 'Nuit du Musba',
-		subtitle: '',
-		description: '',
-		images: {
-			home: {
-				src: '/src/lib/assets/images/Nuit du Musba/Nuit_du_Musba_Home.png',
-				alt: 'Nuit du Musba Home'
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/Nuit du Musba/Nuit_du_Musba_Moodboard.png',
-				alt: 'Nuit du Musba Moodboard'
-			},
-			gallery: [
-				{
-					src: '/src/lib/assets/images/Nuit du Musba/Nuit_du_Musba_Gallery_1.png',
-					alt: 'Nuit du Musba Gallery 1'
-				}
-			]
-		},
-		technologies: [
-			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
-			}
-		],
-		context: '',
-		tags: ['', '', ''],
-		slug: 'nuit-du-musba',
-		external_link: ''
-	},
-	{
-		title: 'The Story of Tetyana',
-		subtitle: '',
-		description: '',
-		images: {
-			home: {
-				src: '/src/lib/assets/images/The Story of Tetyana/The Story of Tetyana_Home.png',
-				alt: 'The Story of Tetyana Home'
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/The Story of Tetyana/The Story of Tetyana_Moodboard.png',
-				alt: 'The Story of Tetyana Moodboard'
-			},
-			gallery: [
-				{
-					src: '/src/lib/assets/images/The Story of Tetyana/The Story of Tetyana_Gallery_1.png',
-					alt: 'The Story of Tetyana Gallery 1'
-				}
-			]
-		},
-		technologies: [
-			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
-			}
-		],
-		context: '',
-		tags: ['', '', ''],
-		slug: 'the-story-of-tetyana',
-		external_link: ''
-	},
-	{
-		title: 'Amedia',
-		subtitle: '',
-		description: '',
-		images: {
-			home: {
-				src: '/src/lib/assets/images/Amedia/Amedia_Home.png',
-				alt: 'Amedia Home'
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/Amedia/Amedia_Moodboard.png',
-				alt: 'Amedia Moodboard'
-			},
-			gallery: [
-				{
-					src: '/src/lib/assets/images/Amedia/Amedia_Gallery_1.png',
-					alt: 'Amedia Gallery 1'
-				}
-			]
-		},
-		technologies: [
-			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
-			}
-		],
-		context: '',
-		tags: ['', '', ''],
-		slug: 'amedia',
-		external_link: ''
-	},
-	{
-		title: 'Spooon',
-		subtitle: '',
-		description: '',
-		images: {
-			home: {
-				src: '/src/lib/assets/images/Spooon/Spooon_Home.png',
-				alt: 'Spooon Home'
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/Spooon/Spooon_Moodboard.png',
-				alt: 'Spooon Moodboard'
-			},
-			gallery: [
-				{
-					src: '/src/lib/assets/images/Spooon/Spooon_Gallery_1.png',
-					alt: 'Spooon Gallery 1'
-				}
-			]
-		},
-		technologies: [
-			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
-			}
-		],
-		context: '',
-		tags: ['', '', ''],
-		slug: 'spooon',
 		external_link: ''
 	},
 	{
@@ -949,10 +915,6 @@ export const projects: ProjectType[] = [
 			home: {
 				src: '/src/lib/assets/images/CAPC/CAPC_Home.png',
 				alt: 'CAPC Home'
-			},
-			moodboard: {
-				src: '/src/lib/assets/images/CAPC/CAPC_Moodboard.png',
-				alt: 'CAPC Moodboard'
 			},
 			gallery: [
 				{
