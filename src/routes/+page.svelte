@@ -3,7 +3,6 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import Marquee from '$lib/components/Marquee.svelte';
 	import RandomBinaryNumber from '$lib/components/RandomBinaryNumber.svelte';
-	import ArrowsCursorCentered from '$lib/components/ArrowsCursorCentered.svelte';
 </script>
 
 <!-- <h1>{m.hello_world({ name: 'Prince' })}</h1> -->
@@ -23,4 +22,3 @@
 	</Marquee>
 </div>
 <RandomBinaryNumber />
-<ArrowsCursorCentered />

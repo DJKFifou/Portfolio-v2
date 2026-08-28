@@ -1035,7 +1035,7 @@ export const projects: ProjectType[] = [
 		external_link: 'https://too-well-stolen.vercel.app/'
 	},
 	{
-		title: 'Bovélo',
+		title: 'Bovelo',
 		subtitle: 'Application de vélos en libre-service + site de présentation',
 		description:
 			"Bovélo est un prototype d'application de location de vélos en libre-service, qui permet aux utilisateurs de localiser les stations de vélos disponibles, de réserver un vélo et de le déverrouiller pour l'utiliser. De plus, un site de présentation accompagne l'application afin de la mettre en avant.",
