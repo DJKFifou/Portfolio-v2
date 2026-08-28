@@ -302,13 +302,21 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Wordpress',
+				icon: '/src/lib/assets/icons/wordpress.svg'
+			},
+			{
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
 		context:
 			'Primizie est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.',
-		tags: ['', '', ''],
+		tags: ['Site web', 'Wordpress'],
 		slug: 'primizie',
 		external_link: ''
 	},
@@ -343,13 +351,25 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Wordpress',
+				icon: '/src/lib/assets/icons/wordpress.svg'
+			},
+			{
+				title: 'PHP',
+				icon: '/src/lib/assets/icons/php.svg'
+			},
+			{
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
 		context:
 			'Xplora est une application web développée pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.',
-		tags: ['', '', ''],
+		tags: ['Web App', 'Wordpress'],
 		slug: 'xplora-app',
 		external_link: ''
 	},
@@ -384,13 +404,25 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Wordpress',
+				icon: '/src/lib/assets/icons/wordpress.svg'
+			},
+			{
+				title: 'PHP',
+				icon: '/src/lib/assets/icons/php.svg'
+			},
+			{
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
 		context:
 			'Xplora est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.',
-		tags: ['', '', ''],
+		tags: ['Site web', 'Wordpress'],
 		slug: 'xplora-website',
 		external_link: 'https://www.xplorainternational.org/'
 	},
@@ -425,13 +457,21 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Wordpress',
+				icon: '/src/lib/assets/icons/wordpress.svg'
+			},
+			{
+				title: 'PHP',
+				icon: '/src/lib/assets/icons/php.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
 		context:
 			'Jaya est un site e-commerce développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['', '', ''],
+		tags: ['Site web', 'Wordpress'],
 		slug: 'jaya',
 		external_link: ''
 	},
@@ -466,13 +506,17 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
 		context:
 			"Lagrange est un site web 'one page' développé en SvelteKit dans un temps restreint pour le domaine viticole Château Lagrange.",
-		tags: ['', '', ''],
+		tags: ['Site web'],
 		slug: 'lagrange',
 		external_link: ''
 	},
@@ -507,13 +551,21 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Wordpress',
+				icon: '/src/lib/assets/icons/wordpress.svg'
+			},
+			{
+				title: 'PHP',
+				icon: '/src/lib/assets/icons/php.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
 		context:
 			'Tonnellerie Bel Air est un site web développé pour un·e client·e. Nous sommes 2 développeur·euses à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['', '', ''],
+		tags: ['Site web', 'WordPress'],
 		slug: 'tonnellerie-bel-air',
 		external_link: 'https://www.tonnellerie-bel-air.fr/bel-air/'
 	},
@@ -562,7 +614,7 @@ export const projects: ProjectType[] = [
 		],
 		context:
 			'Hatchr est un site web principalement développé en PHP sur un thème personnalisé Wordpress.',
-		tags: ['', '', ''],
+		tags: ['Site web', 'WordPress'],
 		slug: 'hatchr',
 		external_link: 'https://hatchr.fr/'
 	},
@@ -611,7 +663,7 @@ export const projects: ProjectType[] = [
 		],
 		context:
 			'Jigogne est un site web développé pour un·e client·e. Basé sur un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['', '', ''],
+		tags: ['Site web', 'WordPress'],
 		slug: 'jigogne',
 		external_link: 'https://jigogne.com/'
 	},
@@ -704,15 +756,16 @@ export const projects: ProjectType[] = [
 			}
 		],
 		context:
-			"LaBurie est un des premiers sites que j'ai pu développer, pour mettre en avant l'activité de ma mère. C'est un one page simple en HTML, CSS et JavaScript.",
-		tags: ['', '', ''],
+			"LaBurie est un des premiers sites que j'ai pu développer, pour mettre en avant l'activité de ma mère. C'est un OnePage simple en HTML, CSS et JavaScript.",
+		tags: ['Site web'],
 		slug: 'laburie',
 		external_link: 'https://laburie.com/'
 	},
 	{
 		title: 'Metal Access',
-		subtitle: '',
-		description: '',
+		subtitle: "Site associatif d'accessibilité pour festivals",
+		description:
+			"Metal Access est un site pour une association qui a pour but d'accompagner les festivals dans la mise en accessibilité de leurs évènements.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Metal-Access/Metal-Access_Home.png',
@@ -739,19 +792,29 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
+			},
+			{
+				title: 'Notion',
+				icon: '/src/lib/assets/icons/notion.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"Metal access a été realisé en seulement quelques jours avec un blog connecté avec l'API proposée par Notion, dans le cadre d'un projet étudiant.",
+		tags: ['Site web'],
 		slug: 'metal-access',
-		external_link: ''
+		external_link: 'https://metal-access.maximelust.fr/'
 	},
 	{
 		title: 'FixMyStreet',
-		subtitle: '',
-		description: '',
+		subtitle: 'PWA de signalements de défauts routiers',
+		description:
+			"FixMyStreet est une Progressive Web App (PWA) principalement axée sur les cyclistes / piétons qui permet aux citoyen·nes de signaler des défauts routiers dans leur ville, tels que des nids-de-poule, des lampadaires cassés ou encore des panneaux de signalisation ou marquages manquants. L'application permet également de suivre l'état des signalements et de recevoir des notifications lorsque ceux-ci sont traités.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Home.png',
@@ -771,19 +834,29 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Supabase',
+				icon: '/src/lib/assets/icons/supabase.svg'
+			},
+			{
+				title: 'Next.js',
+				icon: '/src/lib/assets/icons/next.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"FixMyStreet est mon projet de fin d'études développé en équipe de 3 personnes. Elle contient 2 parties : la partie utilisateur·rice et la partie administrateur·rice. La partie utilisateur·rice permet de signaler des défauts routiers, tandis que la partie administrateur·rice permet de gérer les signalements et de les traiter.",
+		tags: ['PWA', 'BDD'],
 		slug: 'fixmystreet',
-		external_link: ''
+		external_link: 'https://fixmystreet.maximelust.fr/'
 	},
 	{
 		title: 'Nautilus',
-		subtitle: '',
-		description: '',
+		subtitle: 'Support de Motion Design',
+		description:
+			'Nautilus est un petit site permettant de présenter un Motion Design avec une timeline des évènements liée à celui-ci.',
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Nautilus/Nautilus_Home.png',
@@ -802,19 +875,24 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"Nautilus a été réalisé en très peu de temps dans le but d'intéragir avec le Motion Design et de présenter les différentes étapes de celui-ci, dnas le cadre d'un projet étudiant.",
+		tags: ['Site web'],
 		slug: 'nautilus',
-		external_link: ''
+		external_link: 'https://nautilus.maximelust.fr/'
 	},
 	{
 		title: 'Egol',
-		subtitle: '',
-		description: '',
+		subtitle: 'Site humouristique de présentation de marque',
+		description: "Egol est un site OnePage humouristique de présentation d'une marque fictive.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Egol/Egol_Home.png',
@@ -841,19 +919,24 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context: "Egol a été réalisé en seulement quelques jours dans le cadre d'un projet étudiant.",
+		tags: ['Site web'],
 		slug: 'egol',
-		external_link: ''
+		external_link: 'https://egol.maximelust.fr/'
 	},
 	{
 		title: 'Porsche',
-		subtitle: '',
-		description: '',
+		subtitle: 'Site OnePage avec 3D',
+		description:
+			'Porsche est un site OnePage présentant les caractéritiques de la fameuse 911 GT2 RS',
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Porsche/Porsche_Home.png',
@@ -880,19 +963,37 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Three.js',
+				icon: '/src/lib/assets/icons/threejs.svg'
+			},
+			{
+				title: 'WebGL',
+				icon: '/src/lib/assets/icons/webgl.svg'
+			},
+			{
+				title: 'Gsap',
+				icon: '/src/lib/assets/icons/gsap.svg'
+			},
+			{
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"Porsche est un site OnePage développé dans le cadre d'un cours dédié à Three.js et WebGL. Il contient des shaders et des animations 3D avec des jeux de lumière, une personnalisation des couleurs, etc.",
+		tags: ['Site web', 'Three.js', 'WebGL'],
 		slug: 'porsche',
-		external_link: ''
+		external_link: 'https://porsche.maximelust.fr/'
 	},
 	{
 		title: 'Too Well Stolen',
-		subtitle: '',
-		description: '',
+		subtitle: "Site web intéractif de jeu d'enquête",
+		description:
+			"Too Well Stolen est un site web intéractif de jeu d'enquête, dans lequel le joueur doit résoudre une affaire de vol d'oeuvre d'art en interrogeant des suspects et en collectant des indices.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Home.png',
@@ -919,19 +1020,25 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/svelte.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"Too Well Stolen a été réalisé en quelques jours dans le cadre d'un projet étudiant. Il était destiné à être testé au MusBA (Musée des Beaux-Arts) de Bordeaux à une certaine période durant laquelle les oeuvres utilisées et leurs emplacements étaient nécessaires au bon déroulement du jeu d'enquête.",
+		tags: ['Site web', 'Three.js', 'WebGL'],
 		slug: 'too-well-stolen',
-		external_link: ''
+		external_link: 'https://too-well-stolen.vercel.app/'
 	},
 	{
 		title: 'Bovélo',
-		subtitle: '',
-		description: '',
+		subtitle: 'Application de vélos en libre-service + site de présentation',
+		description:
+			"Bovélo est un prototype d'application de location de vélos en libre-service, qui permet aux utilisateurs de localiser les stations de vélos disponibles, de réserver un vélo et de le déverrouiller pour l'utiliser. De plus, un site de présentation accompagne l'application afin de la mettre en avant.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Bovelo/Bovelo_Home.png',
@@ -958,19 +1065,29 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Figma',
+				icon: '/src/lib/assets/icons/figma.svg'
+			},
+			{
+				title: 'HTML',
+				icon: '/src/lib/assets/icons/html.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"Bovélo a été réalisé en quelques jours dans le cadre d'un projet étudiant. L'application a été prototypée sur Figma par une équipe de 5 personnes.",
+		tags: ['Application web', 'Prototype', 'Site web'],
 		slug: 'bovelo',
-		external_link: ''
+		external_link: 'https://bovelo.netlify.app/'
 	},
 	{
 		title: 'CAPC',
-		subtitle: '',
-		description: '',
+		subtitle: 'Refonte de site web',
+		description:
+			"CAPC est une refonte du site web du musée d'art contemporain de Bordeaux, qui permet de découvrir les expositions, les collections et les événements proposés par le musée.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/CAPC/CAPC_Home.png',
@@ -997,19 +1114,70 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'HTML',
+				icon: '/src/lib/assets/icons/html.svg'
+			},
+			{
+				title: 'Bootstrap',
+				icon: '/src/lib/assets/icons/bootstrap.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"CAPC a été ralisé en quelques jours dans le cadre d'un projet étudiant par une équipe de 5 personnes. Il avait en autre pour but de découvrir l'environnement de Bootstrap. Seule la page d'accueil et la page de la première exposition (/event) ont été réalisées.",
+		tags: ['Site web', 'Refonte'],
 		slug: 'capc',
-		external_link: ''
+		external_link: 'https://capc.netlify.app/#'
+	},
+	{
+		title: 'Spooon',
+		subtitle: "Web app de gestion d'énergie quotidienne",
+		description:
+			"Spooon est une web app permettant la gestion de son réservoir d'énergie au quotidien. Elle s'applique principalement pour des personnes atteintes d'autisme et est basée sur la théorie des cuillères de Christine Miserandino",
+		images: {
+			home: {
+				src: '/src/lib/assets/images/Spooon/Spooon_Home.png',
+				alt: 'Spooon Home'
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/Spooon/Spooon_Energie.png',
+					alt: 'Spooon Energie'
+				},
+				{
+					src: '/src/lib/assets/images/Spooon/Spooon_Depense.png',
+					alt: 'Spooon Depense'
+				},
+				{
+					src: '/src/lib/assets/images/Spooon/Spooon_Gain.png',
+					alt: 'Spooon Gain'
+				},
+				{
+					src: '/src/lib/assets/images/Spooon/Spooon_About.png',
+					alt: 'Spooon About'
+				}
+			]
+		},
+		technologies: [
+			{
+				title: 'SvelteKit',
+				icon: '/src/lib/assets/icons/sveltekit.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
+			}
+		],
+		context:
+			"Spooon a été réalisé en quelques jours par une équipe de 9 personnes, dont 2 développeur·euses, dans le cadre d'un projet étudiant.",
+		tags: ['Application web'],
+		slug: 'spooon',
+		external_link: 'https://app.spooon.mmibordeaux.com/'
 	},
 	{
 		title: 'The Mornful Painter',
-		subtitle: '',
-		description: '',
+		subtitle: "Jeu de plateforme et d'énigmes 2D",
+		description:
+			"The Mornful Painter est un jeu de plateforme et d'énigmes 2D dans lequel le joueur incarne une âme en quête de ses souvenirs. à chaque tableau trouvé, le joueur voit apparaître une nouvelle couleur permettant de débloquer de nouvelles zones et de nouveaux tableaux.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Home.png',
@@ -1036,14 +1204,19 @@ export const projects: ProjectType[] = [
 		},
 		technologies: [
 			{
-				title: '',
-				icon: '/src/lib/assets/icons/.svg'
+				title: 'Unity',
+				icon: '/src/lib/assets/icons/unity.svg'
+			},
+			{
+				title: 'Itchi.io',
+				icon: '/src/lib/assets/icons/itchio.svg'
 			}
 		],
-		context: '',
-		tags: ['', '', ''],
+		context:
+			"The Mornful Painter a été réalisé en quelques jours par une équipe de 5 personnes, dont 2 développeur·euses, dans le cadre d'un projet étudiant.",
+		tags: ['Jeu vidéo', 'Plateforme', 'Énigmes'],
 		slug: 'the-mornful-painter',
-		external_link: ''
+		external_link: 'https://la-machine-a-cafe.itch.io/the-mournful-painter'
 	}
 ];
 
