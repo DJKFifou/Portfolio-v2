@@ -4,7 +4,6 @@
 	import { m } from '$lib/paraglide/messages.js';
 
 	const menu = [
-		{ label: m['header.index'](), href: '/index' },
 		{ label: m['header.projects'](), href: '/projects' },
 		{ label: m['header.about'](), href: '/about' },
 		{ label: m['header.contact'](), href: '/contact' }
@@ -57,8 +56,18 @@
 						>EN</button
 					>
 				</div>
-				<button onclick={toggleTheme} class="lang-swap relative flex items-center px-5 uppercase">
-					Mode
+				<button
+					onclick={toggleTheme}
+					class="group lang-swap relative flex items-center px-5 uppercase"
+					aria-label="toggle theme"
+				>
+					<span
+						class="relative h-5 w-5 overflow-hidden rounded-full border-2 border-theme-black bg-theme-white transition-all duration-500 ease-in-out group-hover:border-theme-white group-hover:bg-theme-black"
+					>
+						<span
+							class="absolute -left-1/2 h-full w-full bg-theme-black transition-all duration-500 ease-in-out group-hover:bg-theme-white"
+						></span>
+					</span>
 				</button>
 			</div>
 		</div>

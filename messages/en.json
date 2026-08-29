@@ -1,18 +1,111 @@
 {
 	"header": {
-		"index": "Index",
 		"projects": "Projects",
 		"about": "About",
 		"contact": "Contact"
 	},
-	"hello_world": "Hello, {name} from en!",
+	"footer": {
+		"contact_link": "Let's talk",
+		"reach_me": "How to reach me",
+		"remote": "Remote",
+		"copyright": "All rights reserved"
+	},
 	"homepage": {
 		"hero": {
-			"greeting": "Hello, I am",
 			"name": "Maxime LUST",
-			"role": "Web Developer",
-			"cta": "View my projects",
-			"projects": "projects"
+			"role": "Web Developer ·"
 		}
+	},
+	"projects": {
+		"title": "Projects",
+		"lsd": {
+			"subtitle": "Online multiplayer board game",
+			"description": "Let's Summon Demons is an online multiplayer board game where players must summon demons to win the game. The game takes place in a retro satanic universe and offers strategy and cooperation mechanics.",
+			"context": "Let's Summon Demons is the first game I started developing in my spare time. <br><br> It is based on an existing board game that I adapted for the web. <br><br> There were four of us friends working on the project in total: three developers and one UI/UX designer. <br><br> As for the developers, one was responsible for setting up the technologies and the project's architecture, whilst the other two (including myself) worked on developing the features for all the game's rules (card abilities, game mechanics, etc.). <br><br> The game isn't finished yet as it requires a lot of time and effort, but we hope to be able to unveil it to the public soon.",
+			"tags": ["Web Development", "Game Development", "Multiplayer"]
+		},
+		"mfc": {
+			"subtitle": "Online cheese shop",
+			"description": "Marin French Cheese is an online e-commerce site for a cheese shop located in California, USA.",
+			"context": "Marin French Cheese is an e-commerce website developed for a client. We were two developers working on the project, which was a custom Shopify theme developed in Liquid and Schema.",
+			"tags": ["Web Development", "E-commerce", "Shopify"]
+		}
+	},
+	"about": {
+		"education": {
+			"title": "Educational background",
+			"years": "Years",
+			"qualifications": "Qualifications",
+			"schools": "Schools",
+			"locations": "Locations",
+			"secondary_school": {
+				"qualification": "Science A-levels (+ Ecology, Agronomy and Territories)",
+				"school": "Georges Desclaude Secondary school",
+				"location": "Saintes, France"
+			},
+			"dut": {
+				"qualification": "University Technology Diploma for Computer science",
+				"school": "La Rochelle University Institute of Technology",
+				"location": "La Rochelle, France"
+			},
+			"but": {
+				"qualification": "University Bachelor of Technology for Multimedia and Internet Professions",
+				"school": "Bordeaux Montaigne University Institute of Technology",
+				"location": "Bordeaux, France"
+			},
+			"master": {
+				"qualification": "Master's Degree in Web Development (Lead Front-End Developer)",
+				"school": "ECV (Visual Creation's School)",
+				"location": "Bordeaux, France"
+			}
+		},
+		"jobs": {
+			"title": "Professional experiences",
+			"years": "Years",
+			"jobs": "Jobs",
+			"companies": "Companies",
+			"durations": "Durations",
+			"locations": "Locations",
+			"thrive": {
+				"job": "Web Development Internship",
+				"company": "Thrive Agency",
+				"duration": "5 months",
+				"location": "Bordeaux, France"
+			},
+			"mink": {
+				"job": "Web Development Apprenticeship",
+				"company": "Mink / Piment.io",
+				"duration": "1 year",
+				"location": "Bordeaux, France"
+			},
+			"favoreat": {
+				"job": "Web Development Apprenticeship",
+				"company": "Favoreat Design",
+				"duration": "2 years",
+				"location": "Bordeaux, France"
+			},
+			"freelance": {
+				"job": "Freelance"
+			}
+		}
+	},
+	"contact": {
+		"hello": "Hi, Maxime.",
+		"name": "My name is",
+		"wanted": "I want to contact you for a",
+		"reasons": {
+			"landing-page": "landing page",
+			"multipage": "multipage website",
+			"web-app": "web application",
+			"online-game": "online game",
+			"other": "other"
+		},
+		"date": "that is ideally ready to go by",
+		"budget": "My budget is around",
+		"message": "My message",
+		"message_placeholder": "My project is this one...",
+		"contact": "Contact me by",
+		"kind_regards": "Kind regards",
+		"submit": "Submit"
 	}
 }

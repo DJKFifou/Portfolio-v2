@@ -1,18 +1,111 @@
 {
 	"header": {
-		"index": "Index",
 		"projects": "Projets",
 		"about": "À propos",
 		"contact": "Contact"
 	},
-	"hello_world": "Bonjour, {name} de fr!",
+	"footer": {
+		"contact_link": "Parlons-en",
+		"reach_me": "Pour me retrouver",
+		"remote": "Distanciel",
+		"copyright": "Tous droits réservés"
+	},
 	"homepage": {
 		"hero": {
-			"greeting": "Bonjour, je suis",
 			"name": "Maxime LUST",
-			"role": "Développeur Web",
-			"cta": "Voir mes projets",
-			"projects": "projets"
+			"role": "Developpeur Web ·"
 		}
+	},
+	"projects": {
+		"title": "Projets",
+		"lsd": {
+			"subtitle": "Jeu de société mulitjoueur en ligne",
+			"description": "Let's Summon Demons is an online multiplayer board game where players must summon demons to win the game. The game takes place in a retro satanic universe and offers strategy and cooperation mechanics.",
+			"context": "Let's Summon Demons is the first game I started developing in my spare time. <br><br> It is based on an existing board game that I adapted for the web. <br><br> There were four of us friends working on the project in total: three developers and one UI/UX designer. <br><br> As for the developers, one was responsible for setting up the technologies and the project's architecture, whilst the other two (including myself) worked on developing the features for all the game's rules (card abilities, game mechanics, etc.). <br><br> The game isn't finished yet as it requires a lot of time and effort, but we hope to be able to unveil it to the public soon.",
+			"tags": ["Web Development", "Game Development", "Multiplayer"]
+		},
+		"mfc": {
+			"subtitle": "E-commerce de ventes de fromages",
+			"description": "Marin French Cheese is an online e-commerce site for a cheese shop located in California, USA.",
+			"context": "Marin French Cheese is an e-commerce website developed for a client. We were two developers working on the project, which was a custom Shopify theme developed in Liquid and Schema.",
+			"tags": ["Web Development", "E-commerce", "Shopify"]
+		}
+	},
+	"about": {
+		"education": {
+			"title": "Parcours scolaire",
+			"years": "Années",
+			"qualifications": "Diplômes",
+			"schools": "Écoles",
+			"locations": "Lieux",
+			"secondary_school": {
+				"qualification": "Bac Scientifique : EAT (Écologie, Agronomie et Territoires)",
+				"school": "Lycée Georges Desclaude",
+				"location": "Saintes"
+			},
+			"dut": {
+				"qualification": "DUT Informatique",
+				"school": "IUT de La Rochelle",
+				"location": "La Rochelle"
+			},
+			"but": {
+				"qualification": "BUT MMI (Métiers du Multimédia et de l'Internet)",
+				"school": "IUT Bordeaux Montaigne",
+				"location": "Bordeaux"
+			},
+			"master": {
+				"qualification": "Master Développement Web (Lead Dev Front End)",
+				"school": "ECV (École de Création Visuelle)",
+				"location": "Bordeaux"
+			}
+		},
+		"jobs": {
+			"title": "Parcours professionnel",
+			"years": "Années",
+			"jobs": "Postes",
+			"companies": "Entreprises",
+			"durations": "Durées",
+			"locations": "Lieux",
+			"thrive": {
+				"job": "Stage Développement Web",
+				"company": "Agence Thrive",
+				"duration": "5 mois",
+				"location": "Bordeaux"
+			},
+			"mink": {
+				"job": "Alternance Développement Web",
+				"company": "Mink / Piment.io",
+				"duration": "1 an",
+				"location": "Bordeaux"
+			},
+			"favoreat": {
+				"job": "Alternance Développement Web",
+				"company": "Favoreat Design",
+				"duration": "2 ans",
+				"location": "Bordeaux"
+			},
+			"freelance": {
+				"job": "Freelance"
+			}
+		}
+	},
+	"contact": {
+		"hello": "Bonjour, Maxime.",
+		"name": "Mon nom est",
+		"wanted": "Je vous contacte car je voudrais un·e",
+		"reasons": {
+			"landing-page": "page unique",
+			"multipage": "site multipages",
+			"web-app": "application web",
+			"online-game": "jeu en ligne",
+			"other": "autre"
+		},
+		"date": "qui soit idéalement opérationnel·le pour",
+		"budget": "Mon budget est de",
+		"message": "Mon message",
+		"message_placeholder": "Mon projet est celui-ci...",
+		"contact": "Contactez-moi par",
+		"kind_regards": "Cordialement",
+		"submit": "Envoyer"
 	}
 }

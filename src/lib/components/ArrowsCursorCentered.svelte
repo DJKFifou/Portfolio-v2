@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import { m } from '$lib/paraglide/messages.js';
 
 	let container: HTMLDivElement | null = $state(null);
 
@@ -73,7 +74,7 @@
 			href={resolve('/contact')}
 			class="transition-color pointer-events-auto flex h-1/3 w-1/2 -translate-y-1/12 items-center justify-center bg-theme-black text-center font-obviously text-[6vw] font-black text-theme-white duration-300 ease-in-out hover:text-theme-white/75"
 		>
-			Let's talk 🙂
+			{m['footer.contact_link']()} 🙂
 		</a>
 	</div>
 </section>

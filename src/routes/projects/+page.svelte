@@ -4,6 +4,22 @@
 	import type { ProjectType } from '$lib/projects';
 
 	let { data }: PageProps = $props();
+
+	function handleMouseMove(event: MouseEvent) {
+		const target = event.currentTarget as HTMLElement;
+		const rect = target.getBoundingClientRect();
+
+		cursorX = event.clientX - rect.left;
+		cursorY = event.clientY - rect.top;
+	}
+
+	function handleMouseEnter() {
+		cursorVisible = true;
+	}
+
+	function handleMouseLeave() {
+		cursorVisible = false;
+	}
 </script>
 
 {#snippet Project(project: ProjectType)}
@@ -60,8 +76,8 @@
 	</div>
 {/snippet}
 
-<section class="m-25 mt-35 flex flex-col gap-16">
-	<h2 class="font-obviously text-7xl font-black text-theme-black">{m['header.projects']()}</h2>
+<section class="flex flex-col gap-16 bg-theme-white p-25 pt-35">
+	<h2 class="font-obviously text-7xl font-black text-theme-black">{m['projects.title']()}</h2>
 	<div class="flex flex-wrap gap-8">
 		{#each data.projects as project (project.slug)}
 			{@render Project(project)}

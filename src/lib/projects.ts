@@ -1,7 +1,9 @@
+import { m } from '$lib/paraglide/messages.js';
+
 export const projects: ProjectType[] = [
 	{
 		title: "Let's Summon Demons",
-		subtitle: 'Jeu de société en ligne multijoueur',
+		subtitle: 'Jeu de société mulitjoueur en ligne',
 		description:
 			"Let's Summon Demons est un jeu de société en ligne multijoueur où les joueurs doivent invoquer des démons pour gagner la partie. Le jeu se déroule dans un univers rétro satanique et propose des mécaniques de stratégie et de coopération.",
 		images: {
@@ -324,7 +326,7 @@ export const projects: ProjectType[] = [
 		title: 'Xplora App',
 		subtitle: 'Web application pour étudiant·es, professeur·es et professionnel·les',
 		description:
-			"Primizie est une application web d'apprentisssage et de communication pour étudiant·es, professeur·es et professionnel·les. Elle permet de gérer les cours, les devoirs, les examens, les présences et les communications entre les différents acteurs de l'éducation.",
+			"Xplora est une application web d'apprentisssage et de communication pour étudiant·es, professeur·es et professionnel·les. Elle permet de gérer les cours, les devoirs, les examens, les présences et les communications entre les différents acteurs de l'éducation.",
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Xplora/App/Xplora_App_Home.png',
@@ -518,7 +520,7 @@ export const projects: ProjectType[] = [
 			"Lagrange est un site web 'one page' développé en SvelteKit dans un temps restreint pour le domaine viticole Château Lagrange.",
 		tags: ['Site web'],
 		slug: 'lagrange',
-		external_link: ''
+		external_link: 'https://chateau-lagrange.com/collection-heritage/'
 	},
 	{
 		title: 'Tonnellerie Bel Air',

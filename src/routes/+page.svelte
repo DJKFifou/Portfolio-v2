@@ -11,13 +11,13 @@
 <RandomBinaryNumber />
 <div class="pb-4">
 	<Marquee classes="-mt-4">
-		<h2 class="pr-20 font-obviously text-9xl font-black uppercase">
-			{m['homepage.hero.projects']()}
+		<h2 class="pr-8 font-obviously text-9xl font-black uppercase">
+			{m['homepage.hero.role']()}
 		</h2>
 	</Marquee>
 	<Marquee direction="right">
-		<h2 class="pr-20 font-obviously text-9xl font-black uppercase">
-			{m['homepage.hero.projects']()}
+		<h2 class="pr-8 font-obviously text-9xl font-black uppercase">
+			{m['homepage.hero.role']()}
 		</h2>
 	</Marquee>
 </div>
