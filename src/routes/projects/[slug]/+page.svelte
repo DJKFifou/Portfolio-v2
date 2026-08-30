@@ -89,7 +89,7 @@
 </script>
 
 <section
-	class="relative flex h-[200dvh] flex-col items-center justify-between gap-16 pt-18 text-center"
+	class="relative flex h-[200dvh] flex-col items-center justify-between gap-16 bg-theme-white pt-18 text-center"
 >
 	<h2 class="py-4 font-obviously text-8xl font-black text-theme-black uppercase">
 		{data.title}
@@ -135,7 +135,9 @@
 	</div>
 </section>
 
-<section class="flex h-screen-dvh-header flex-col items-center justify-evenly gap-8 text-center">
+<section
+	class="flex h-screen-dvh-header flex-col items-center justify-evenly gap-8 bg-theme-white text-center text-theme-black"
+>
 	<p class="max-w-2xl text-3xl font-semibold">{data.description}</p>
 </section>
 
@@ -147,19 +149,23 @@
 	/>
 </section>
 
-<section class="flex flex-col items-center gap-20 py-20">
+<section class="flex flex-col items-center gap-20 bg-theme-white py-20 text-theme-black">
 	<p class="font-obviously text-4xl font-bold">Technologies</p>
 	<div class="flex max-w-xl flex-wrap justify-center gap-16">
 		{#each data.technologies as technology (technology.title)}
 			<div class="flex flex-col items-center gap-4">
-				<img src={technology.icon} alt={technology.title} class="h-12 w-12 object-contain" />
+				<img
+					src={technology.icon}
+					alt={technology.title}
+					class="h-14 w-14 bg-white object-contain p-2"
+				/>
 				<p class="font-mono font-medium">{technology.title}</p>
 			</div>
 		{/each}
 	</div>
 </section>
 
-<section>
+<section class="bg-theme-white text-theme-black">
 	{#if data.images?.gallery}
 		<div class="mx-4 grid grid-cols-2 gap-4">
 			{#each data.images.gallery as image, i (i)}
@@ -169,7 +175,9 @@
 	{/if}
 </section>
 
-<section class="flex flex-col items-center gap-20 py-20 text-center">
+<section
+	class="flex flex-col items-center gap-20 bg-theme-white py-20 text-center text-theme-black"
+>
 	<h2 class="font-obviously text-4xl font-bold">Contexte</h2>
 	<p class="max-w-3xl text-2xl font-medium">{@html data.context}</p>
 	{#if data.external_link}
@@ -180,7 +188,22 @@
 			class="flex items-center gap-1 rounded-full bg-theme-black px-4 py-1 text-theme-white"
 		>
 			Visiter le site
-			<img src="/src/lib/assets/arrow.svg" alt="Left Arrow" class="h-4 object-cover" />
+			<svg
+				width="100%"
+				height="100%"
+				viewBox="0 0 24 24"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-4 w-fit object-cover text-theme-white"
+			>
+				<path
+					d="M7 17L17 7M17 7H7M17 7V17"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+			</svg>
 		</a>
 	{/if}
 </section>
