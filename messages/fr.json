@@ -20,15 +20,230 @@
 		"title": "Projets",
 		"lsd": {
 			"subtitle": "Jeu de société mulitjoueur en ligne",
-			"description": "Let's Summon Demons is an online multiplayer board game where players must summon demons to win the game. The game takes place in a retro satanic universe and offers strategy and cooperation mechanics.",
-			"context": "Let's Summon Demons is the first game I started developing in my spare time. <br><br> It is based on an existing board game that I adapted for the web. <br><br> There were four of us friends working on the project in total: three developers and one UI/UX designer. <br><br> As for the developers, one was responsible for setting up the technologies and the project's architecture, whilst the other two (including myself) worked on developing the features for all the game's rules (card abilities, game mechanics, etc.). <br><br> The game isn't finished yet as it requires a lot of time and effort, but we hope to be able to unveil it to the public soon.",
-			"tags": ["Web Development", "Game Development", "Multiplayer"]
+			"description": "Let's Summon Demons est un jeu de société en ligne multijoueur où les joueurs doivent invoquer des démons pour gagner la partie. Le jeu se déroule dans un univers rétro satanique et propose des mécaniques de stratégie et de coopération.",
+			"context": "Let's Summon Demons est le premier jeu que j'ai commencé à développer dans mon temps libre. <br><br> Il est basé sur un jeu de société existant que j'ai adapté pour le web. <br><br> Nous sommes au total 4 ami·es à avoir travaillé sur le projet, 3 développeurs et une UI/UX. <br><br> Pour ce qui est des développeurs, l'un s'est occupé de la mise en place des technologies et de l'architecture du projet, et deux autres (dont moi) se sont occupés du développement des fonctionnalités de toutes les règles du jeu (pouvoirs des cartes, mécaniques de jeu, etc.). <br><br> Le jeu n'est pas encore terminé car demande beaucoup de temps et d'investissement mais espérons pouvoir le dévoiler au grand jour prochainement.",
+			"tags": {
+				"one": "Jeu",
+				"two": "Multi",
+				"three": "Site web"
+			}
 		},
 		"mfc": {
 			"subtitle": "E-commerce de ventes de fromages",
-			"description": "Marin French Cheese is an online e-commerce site for a cheese shop located in California, USA.",
-			"context": "Marin French Cheese is an e-commerce website developed for a client. We were two developers working on the project, which was a custom Shopify theme developed in Liquid and Schema.",
-			"tags": ["Web Development", "E-commerce", "Shopify"]
+			"description": "Marin French Cheese est un site e-commerce d'une fromagerie située en Californie aux États-Unis.",
+			"context": "Marin French cheese est un site e-commerce développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème Shopify personnalisé, développé en Liquid et Schema.",
+			"tags": {
+				"one": "E-commerce",
+				"two": "Site web",
+				"three": "Shopify"
+			}
+		},
+		"white-toque": {
+			"subtitle": "Site de présentation de produits de restauration",
+			"description": "White-Toque est un site de présentation de produits européens de restauration déstiné à l'importation aux États-Unis en B2B.",
+			"context": "White-Toque est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"taillan-medoc": {
+			"subtitle": "Site communal du Taillan-Médoc",
+			"description": "Le site de la commune du Taillan-Medoc permet aux habitant·es de la commune d'avoir accès à toutes les informations concernant la commune, ses services et ses actualités.",
+			"context": "Taillan-Medoc est un site web développé pour la mairie du Taillan-Medoc. Nous sommes 2 développeur·euses à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"geoquizz": {
+			"subtitle": "Jeu de géographie en ligne solo",
+			"description": "Geoquizz est un site de quizz de géographie, où l'on peut tester ses connaissances sur de nombreux sujets tels que les pays, les drapeaux, les capitales et bien plus encore.",
+			"context": "Geoquizz est la 2e version d'un projet que j'avais développé en Ruby et en Javascript il y a plusieurs années, que j'ai largement perfectionné en passant le tout sur Sveltekit et en rajoutant d'innombrables fonctionnalités",
+			"tags": {
+				"one": "Site web",
+				"two": "Jeu",
+				"three": "Solo"
+			}
+		},
+		"primizie": {
+			"subtitle": "Site de mise en relation de fournisseur·euses et de restaurateur·rices",
+			"description": "Primizie est un site de mise en relation entre entreprises indépendantes dans le domaine de la restauration, afin de retrouver des aliments haut de gamme aux États-Unis.",
+			"context": "Primizie est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"xplora-app": {
+			"subtitle": "Web application pour étudiant·es, professeur·es et professionnel·les",
+			"description": "Xplora est une application web d'apprentisssage et de communication pour étudiant·es, professeur·es et professionnel·les. Elle permet de gérer les cours, les devoirs, les examens, les présences et les communications entre les différents acteurs de l'éducation.",
+			"context": "Xplora est une application web développée pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.",
+			"tags": {
+				"one": "App web",
+				"two": "Wordpress"
+			}
+		},
+		"xplora-website": {
+			"subtitle": "Site de programmes éducatifs et de voyages pour étudiant·es",
+			"description": "Xplora est un site de programmes éducatifs et de voyages pour étudiant·es, qui permet de découvrir les différents programmes proposés par l’entreprise et de s’inscrire à ceux-ci dans le but d'étudier en ligne ou dans d'autres pays des cours sélectionnés.",
+			"context": "Xplora est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"jaya": {
+			"subtitle": "E-commerce de produits intimes féminins",
+			"description": "Jaya est un site e-commerce de produits de beauté et de bien-être intimes féminins. Il propose une large gamme de produits, allant des soins intimes aux accessoires, en passant par les produits de bien-être et de relaxation. Il propose également une box de bien-être intime et de plaisir sexuel féminin personnalisée, qui permet de recevoir chaque mois une sélection de produits adaptés à ses besoins et à ses envies.",
+			"context": "Jaya est un site e-commerce développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"lagrange": {
+			"subtitle": "Site de présentation de domaine viticole",
+			"description": "Lagrange est un site de présentation du domaine viticole Château Lagrange. Il présente l'histoire, la philosophie, les collections et les vins liés au château.",
+			"context": "Lagrange est un site web 'one page' développé en SvelteKit dans un temps restreint pour le domaine viticole Château Lagrange.",
+			"tags": {
+				"one": "Site web"
+			}
+		},
+		"tonnellerie": {
+			"subtitle": "Site de présentation de tonnellerie",
+			"description": "Tonnellerie Bel Air est un site de présentation d'une tonnellerie française spécialisée dans la fabrication de tonneaux en bois pour le vin.",
+			"context": "Tonnellerie Bel Air est un site web développé pour un·e client·e. Nous sommes 2 développeur·euses à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"hatchr": {
+			"subtitle": "Site de solutions web et marketing",
+			"description": "Hatchr est un site de solutions web et marketing pour les entreprises.Hatchr est un site de solutions de communication et de marketing pour les entreprises dans le secteur de la finance, de l'immobilier et du droit. Il propose de développer leur visibilité, fidéliser et attirez de nouveaux clients grâce à des services de création de sites web / d'image de marque, de gestion des Réseaux Sociaux, de référencement et de conseils stratégiques et marketing.",
+			"context": "Hatchr est un site web principalement développé en PHP sur un thème personnalisé Wordpress.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"jigogne": {
+			"subtitle": "Site de services dans le BTP",
+			"description": "Jigogne est un site de présentation de services dans le BTP, spécialisé dans la vente de terrain, les projets de construction ou encore les expertises techniques.",
+			"context": "Jigogne est un site web développé pour un·e client·e. Basé sur un thème wordpress personnalisé principalement développé en PHP.",
+			"tags": {
+				"one": "Site web",
+				"two": "Wordpress"
+			}
+		},
+		"tarot-africain": {
+			"subtitle": "Jeu de cartes en ligne multijoueur",
+			"description": "Le Tarot Africain est une variante du jeu de tarot traditionnel. Il est connu sous plusieurs noms et se joue avec les atouts du jeu de base. C'est un jeu de plis dans lequel les joueurs doivent deviner le nombre exacts de plis qu'ils remporteront. Il se joue généralement à 4 joueurs, mais peut également se jouer à 3 ou 5 joueurs.",
+			"context": "Le Tarot Africain est un projet personnel que j'ai développé dans mon temps libre. Je suis d'ailleurs parti de ce projet pour créer un template de jeu multijoueur en ligne tour par tour, développé en SvelteKit, TypeScript et Socket.io, et que j'utilise pour mes projets du même type. Le projet n'est pas encore terminé à 100% même s'il est fonctionnel dans la cas d'une 1ère version jouable. Quelques fonctionalités restent à implémenter et surtout toute la partie Design et UI/UX du jeu.",
+			"tags": {
+				"one": "Jeu",
+				"two": "Multijoueur",
+				"three": "Site web"
+			}
+		},
+		"laburie": {
+			"subtitle": "Site de chambres d'hôtes",
+			"description": "La Burie est un site de chambres d'hôtes de Charente-Maritime (Saint-Savinien), permettant aux visiteurs de découvrir les différentes chambres mises à disposition, les activités et services proposés, ainsi que de réserver des nuitées en ligne.",
+			"context": "LaBurie est un des premiers sites que j'ai pu développer, pour mettre en avant l'activité de ma mère. C'est un OnePage simple en HTML, CSS et JavaScript.",
+			"tags": {
+				"one": "Site web"
+			}
+		},
+		"metal-access": {
+			"subtitle": "Site associatif d'accessibilité pour festivals",
+			"description": "Metal Access est un site pour une association qui a pour but d'accompagner les festivals dans la mise en accessibilité de leurs évènements.",
+			"context": "Metal access a été realisé en seulement quelques jours avec un blog connecté avec l'API proposée par Notion, dans le cadre d'un projet étudiant.",
+			"tags": {
+				"one": "Site web"
+			}
+		},
+		"fixmystreet": {
+			"subtitle": "PWA de signalements de défauts routiers",
+			"description": "FixMyStreet est une Progressive Web App (PWA) principalement axée sur les cyclistes / piétons qui permet aux citoyen·nes de signaler des défauts routiers dans leur ville, tels que des nids-de-poule, des lampadaires cassés ou encore des panneaux de signalisation ou marquages manquants. L'application permet également de suivre l'état des signalements et de recevoir des notifications lorsque ceux-ci sont traités.",
+			"context": "FixMyStreet est mon projet de fin d'études développé en équipe de 3 personnes. Elle contient 2 parties : la partie utilisateur·rice et la partie administrateur·rice. La partie utilisateur·rice permet de signaler des défauts routiers, tandis que la partie administrateur·rice permet de gérer les signalements et de les traiter.",
+			"tags": {
+				"one": "PWA",
+				"two": "BDD"
+			}
+		},
+		"nautilus": {
+			"subtitle": "Support de Motion Design",
+			"description": "Nautilus est un petit site permettant de présenter un Motion Design avec une timeline des évènements liée à celui-ci.",
+			"context": "Nautilus a été réalisé en très peu de temps dans le but d'intéragir avec le Motion Design et de présenter les différentes étapes de celui-ci, dnas le cadre d'un projet étudiant.",
+			"tags": {
+				"one": "Site web"
+			}
+		},
+		"egol": {
+			"subtitle": "Site humouristique de présentation de marque",
+			"description": "Egol est un site OnePage humouristique de présentation d'une marque fictive.",
+			"context": "Egol a été réalisé en seulement quelques jours dans le cadre d'un projet étudiant.",
+			"tags": {
+				"one": "Site web"
+			}
+		},
+		"porsche": {
+			"subtitle": "Site OnePage avec 3D",
+			"description": "Porsche est un site OnePage présentant les caractéritiques de la fameuse 911 GT2 RS",
+			"context": "Porsche est un site OnePage développé dans le cadre d'un cours dédié à Three.js et WebGL. Il contient des shaders et des animations 3D avec des jeux de lumière, une personnalisation des couleurs, etc.",
+			"tags": {
+				"one": "Site web",
+				"two": "Three.js",
+				"three": "WebGL"
+			}
+		},
+		"too-well-stolen": {
+			"subtitle": "Site web intéractif de jeu d'enquête",
+			"description": "Too Well Stolen est un site web intéractif de jeu d'enquête, dans lequel le joueur doit résoudre une affaire de vol d'oeuvre d'art en interrogeant des suspects et en collectant des indices.",
+			"context": "Too Well Stolen a été réalisé en quelques jours dans le cadre d'un projet étudiant. Il était destiné à être testé au MusBA (Musée des Beaux-Arts) de Bordeaux à une certaine période durant laquelle les oeuvres utilisées et leurs emplacements étaient nécessaires au bon déroulement du jeu d'enquête.",
+			"tags": {
+				"one": "Site web",
+				"two": "Jeu",
+				"three": "Enquête"
+			}
+		},
+		"bovelo": {
+			"subtitle": "Application de vélos en libre-service + site de présentation",
+			"description": "Bovélo est un prototype d'application de location de vélos en libre-service, qui permet aux utilisateurs de localiser les stations de vélos disponibles, de réserver un vélo et de le déverrouiller pour l'utiliser. De plus, un site de présentation accompagne l'application afin de la mettre en avant.",
+			"context": "Bovélo a été réalisé en quelques jours dans le cadre d'un projet étudiant. L'application a été prototypée sur Figma par une équipe de 5 personnes.",
+			"tags": {
+				"one": "App web",
+				"two": "Three.js",
+				"three": "WebGL"
+			}
+		},
+		"capc": {
+			"subtitle": "Refonte de site web",
+			"description": "CAPC est une refonte du site web du musée d'art contemporain de Bordeaux, qui permet de découvrir les expositions, les collections et les événements proposés par le musée.",
+			"context": "CAPC a été ralisé en quelques jours dans le cadre d'un projet étudiant par une équipe de 5 personnes. Il avait en autre pour but de découvrir l'environnement de Bootstrap. Seule la page d'accueil et la page de la première exposition (/event) ont été réalisées.",
+			"tags": {
+				"one": "Site web",
+				"two": "Refonte"
+			}
+		},
+		"spooon": {
+			"subtitle": "Web app de gestion d'énergie quotidienne",
+			"description": "Spooon est une web app permettant la gestion de son réservoir d'énergie au quotidien. Elle s'applique principalement pour des personnes atteintes d'autisme et est basée sur la théorie des cuillères de Christine Miserandino",
+			"context": "Spooon a été réalisé en quelques jours par une équipe de 9 personnes, dont 2 développeur·euses, dans le cadre d'un projet étudiant.",
+			"tags": {
+				"one": "App web"
+			}
+		},
+		"the-mornful-painter": {
+			"subtitle": "Jeu de plateforme et d'énigmes 2D",
+			"description": "The Mornful Painter est un jeu de plateforme et d'énigmes 2D dans lequel le joueur incarne une âme en quête de ses souvenirs. à chaque tableau trouvé, le joueur voit apparaître une nouvelle couleur permettant de débloquer de nouvelles zones et de nouveaux tableaux.",
+			"context": "The Mornful Painter a été réalisé en quelques jours par une équipe de 5 personnes, dont 2 développeur·euses, dans le cadre d'un projet étudiant.",
+			"tags": {
+				"one": "Jeu vidéo",
+				"two": "Plateforme",
+				"three": "Énigmes"
+			}
 		}
 	},
 	"about": {

@@ -1,11 +1,14 @@
 import { m } from '$lib/paraglide/messages.js';
-
+export type TagKey = 'one' | 'two' | 'three';
 export const projects: ProjectType[] = [
 	{
 		title: "Let's Summon Demons",
-		subtitle: 'Jeu de société mulitjoueur en ligne',
-		description:
-			"Let's Summon Demons est un jeu de société en ligne multijoueur où les joueurs doivent invoquer des démons pour gagner la partie. Le jeu se déroule dans un univers rétro satanique et propose des mécaniques de stratégie et de coopération.",
+		get subtitle() {
+			return m['projects.lsd.subtitle']();
+		},
+		get description() {
+			return m['projects.lsd.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/LSD/LSD_Home.png',
@@ -52,16 +55,25 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Let's Summon Demons est le premier jeu que j'ai commencé à développer dans mon temps libre. <br><br> Il est basé sur un jeu de société existant que j'ai adapté pour le web. <br><br> Nous sommes au total 4 ami·es à avoir travaillé sur le projet, 3 développeurs et une UI/UX. <br><br> Pour ce qui est des développeurs, l'un s'est occupé de la mise en place des technologies et de l'architecture du projet, et deux autres (dont moi) se sont occupés du développement des fonctionnalités de toutes les règles du jeu (pouvoirs des cartes, mécaniques de jeu, etc.). <br><br> Le jeu n'est pas encore terminé car demande beaucoup de temps et d'investissement mais espérons pouvoir le dévoiler au grand jour prochainement.",
-		tags: ['Jeu', 'Multi', 'Site web'],
+		get context() {
+			return m['projects.lsd.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.lsd.tags.${key}`]()
+			);
+		},
 		slug: 'lets-summon-demons'
 	},
 	{
 		title: 'Marin French Cheese',
-		subtitle: 'E-commerce de ventes de fromages',
-		description:
-			"Marin French Cheese est un site e-commerce d'une fromagerie située en Californie aux États-Unis.",
+		get subtitle() {
+			return m['projects.mfc.subtitle']();
+		},
+		get description() {
+			return m['projects.mfc.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/MFC/MFC_Home.png',
@@ -104,17 +116,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'Marin French cheese est un site e-commerce développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème Shopify personnalisé, développé en Liquid et Schema.',
-		tags: ['E-commerce', 'Site web', 'Shopify'],
+		get context() {
+			return m['projects.mfc.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.mfc.tags.${key}`]()
+			);
+		},
 		slug: 'marin-french-cheese',
 		external_link: 'https://marinfrenchcheese.com'
 	},
 	{
 		title: 'White-Toque',
-		subtitle: 'Site de présentation de produits de restauration',
-		description:
-			"White-Toque est un site de présentation de produits européens de restauration déstiné à l'importation aux États-Unis en B2B.",
+		get subtitle() {
+			return m['projects.white-toque.subtitle']();
+		},
+		get description() {
+			return m['projects.white-toque.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/White-Toque/White-Toque_Home.png',
@@ -161,17 +182,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'White-Toque est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['Site web', 'Wordpress'],
+		get context() {
+			return m['projects.white-toque.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.white-toque.tags.${key}`]()
+			);
+		},
 		slug: 'white-toque',
 		external_link: 'https://www.whitetoque.com'
 	},
 	{
 		title: 'Taillan-Medoc',
-		subtitle: 'Site communal du Taillan-Médoc',
-		description:
-			"Le site de la commune du Taillan-Medoc permet aux habitant·es de la commune d'avoir accès à toutes les informations concernant la commune, ses services et ses actualités.",
+		get subtitle() {
+			return m['projects.taillan-medoc.subtitle']();
+		},
+		get description() {
+			return m['projects.taillan-medoc.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Home.png',
@@ -214,17 +244,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'Taillan-Medoc est un site web développé pour la mairie du Taillan-Medoc. Nous sommes 2 développeur·euses à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['Site web', 'Wordpress'],
+		get context() {
+			return m['projects.taillan-medoc.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.taillan-medoc.tags.${key}`]()
+			);
+		},
 		slug: 'taillan-medoc',
 		external_link: 'https://www.taillan-medoc.fr'
 	},
 	{
 		title: 'Geoquizz',
-		subtitle: 'Jeu de géographie en ligne solo',
-		description:
-			"Geoquizz est un site de quizz de géographie, où l'on peut tester ses connaissances sur de nombreux sujets tels que les pays, les drapeaux, les capitales et bien plus encore.",
+		get subtitle() {
+			return m['projects.geoquizz.subtitle']();
+		},
+		get description() {
+			return m['projects.geoquizz.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Geoquizz/Geoquizz_Home.png',
@@ -263,17 +302,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Geoquizz est la 2e version d'un projet que j'avais développé en Ruby et en Javascript il y a plusieurs années, que j'ai largement perfectionné en passant le tout sur Sveltekit et en rajoutant d'innombrables fonctionnalités",
-		tags: ['Jeu', 'Solo', 'Site web'],
+		get context() {
+			return m['projects.geoquizz.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.geoquizz.tags.${key}`]()
+			);
+		},
 		slug: 'geoquizz',
 		external_link: 'https://geoquizz.maximelust.fr'
 	},
 	{
 		title: 'Primizie',
-		subtitle: 'Site de mise en relation de fournisseur·euses et de restaurateur·rices',
-		description:
-			'Primizie est un site de mise en relation entre entreprises indépendantes dans le domaine de la restauration, afin de retrouver des aliments haut de gamme aux États-Unis.',
+		get subtitle() {
+			return m['projects.primizie.subtitle']();
+		},
+		get description() {
+			return m['projects.primizie.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Primizie/Primizie_Home.png',
@@ -316,17 +364,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'Primizie est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.',
-		tags: ['Site web', 'Wordpress'],
+		get context() {
+			return m['projects.primizie.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.primizie.tags.${key}`]()
+			);
+		},
 		slug: 'primizie',
 		external_link: ''
 	},
 	{
 		title: 'Xplora App',
-		subtitle: 'Web application pour étudiant·es, professeur·es et professionnel·les',
-		description:
-			"Xplora est une application web d'apprentisssage et de communication pour étudiant·es, professeur·es et professionnel·les. Elle permet de gérer les cours, les devoirs, les examens, les présences et les communications entre les différents acteurs de l'éducation.",
+		get subtitle() {
+			return m['projects.xplora-app.subtitle']();
+		},
+		get description() {
+			return m['projects.xplora-app.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Xplora/App/Xplora_App_Home.png',
@@ -369,17 +426,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'Xplora est une application web développée pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.',
-		tags: ['Web App', 'Wordpress'],
+		get context() {
+			return m['projects.xplora-app.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.xplora-app.tags.${key}`]()
+			);
+		},
 		slug: 'xplora-app',
 		external_link: ''
 	},
 	{
 		title: 'Xplora Website',
-		subtitle: 'Site de programmes éducatifs et de voyages pour étudiant·es',
-		description:
-			"Xplora est un site de programmes éducatifs et de voyages pour étudiant·es, qui permet de découvrir les différents programmes proposés par l’entreprise et de s’inscrire à ceux-ci dans le but d'étudier en ligne ou dans d'autres pays des cours sélectionnés.",
+		get subtitle() {
+			return m['projects.xplora-website.subtitle']();
+		},
+		get description() {
+			return m['projects.xplora-website.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Home.png',
@@ -422,17 +488,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'Xplora est un site web développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé basculé en headless avec SvelteKit depuis une API sur mesure qui communique avec le backend en PHP.',
-		tags: ['Site web', 'Wordpress'],
+		get context() {
+			return m['projects.xplora-website.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.xplora-website.tags.${key}`]()
+			);
+		},
 		slug: 'xplora-website',
 		external_link: 'https://www.xplorainternational.org/'
 	},
 	{
 		title: 'Jaya',
-		subtitle: 'E-commerce de produits intimes féminins',
-		description:
-			'Jaya est un site e-commerce de produits de beauté et de bien-être intimes féminins. Il propose une large gamme de produits, allant des soins intimes aux accessoires, en passant par les produits de bien-être et de relaxation. Il propose également une box de bien-être intime et de plaisir sexuel féminin personnalisée, qui permet de recevoir chaque mois une sélection de produits adaptés à ses besoins et à ses envies.',
+		get subtitle() {
+			return m['projects.jaya.subtitle']();
+		},
+		get description() {
+			return m['projects.jaya.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Jaya/Jaya_Home.png',
@@ -471,17 +546,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'Jaya est un site e-commerce développé pour un·e client·e. Nous sommes 2 développeurs à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['Site web', 'Wordpress'],
+		get context() {
+			return m['projects.jaya.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.jaya.tags.${key}`]()
+			);
+		},
 		slug: 'jaya',
 		external_link: ''
 	},
 	{
 		title: 'Lagrange',
-		subtitle: 'Site de présentation de domaine viticole',
-		description:
-			"Lagrange est un site de présentation du domaine viticole Château Lagrange. Il présente l'histoire, la philosophie, les collections et les vins liés au château.",
+		get subtitle() {
+			return m['projects.lagrange.subtitle']();
+		},
+		get description() {
+			return m['projects.lagrange.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Lagrange/Lagrange_Home.png',
@@ -516,17 +600,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Lagrange est un site web 'one page' développé en SvelteKit dans un temps restreint pour le domaine viticole Château Lagrange.",
-		tags: ['Site web'],
+		get context() {
+			return m['projects.lagrange.context']();
+		},
+		tagKeys: ['one'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.lagrange.tags.${key}`]()
+			);
+		},
 		slug: 'lagrange',
 		external_link: 'https://chateau-lagrange.com/collection-heritage/'
 	},
 	{
 		title: 'Tonnellerie Bel Air',
-		subtitle: 'Site de présentation de tonnellerie',
-		description:
-			"Tonnellerie Bel Air est un site de présentation d'une tonnellerie française spécialisée dans la fabrication de tonneaux en bois pour le vin.",
+		get subtitle() {
+			return m['projects.tonnellerie.subtitle']();
+		},
+		get description() {
+			return m['projects.tonnellerie.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Home.png',
@@ -565,17 +658,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			'Tonnellerie Bel Air est un site web développé pour un·e client·e. Nous sommes 2 développeur·euses à avoir travaillé sur le projet, qui est un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['Site web', 'WordPress'],
+		get context() {
+			return m['projects.tonnellerie.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.tonnellerie.tags.${key}`]()
+			);
+		},
 		slug: 'tonnellerie-bel-air',
 		external_link: 'https://www.tonnellerie-bel-air.fr/bel-air/'
 	},
 	{
 		title: 'Hatchr',
-		subtitle: 'Site de solutions web et marketing',
-		description:
-			"Hatchr est un site de solutions de communication et de marketing pour les entreprises dans le secteur de la finance, de l'immobilier et du droit. Il propose de développer leur visibilité, fidéliser et attirez de nouveaux clients grâce à des services de création de sites web / d'image de marque, de gestion des Réseaux Sociaux, de référencement et de conseils stratégiques et marketing.",
+		get subtitle() {
+			return m['projects.hatchr.subtitle']();
+		},
+		get description() {
+			return m['projects.hatchr.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Hatchr/Hatchr_Home.png',
@@ -614,17 +716,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/sass.svg'
 			}
 		],
-		context:
-			'Hatchr est un site web principalement développé en PHP sur un thème personnalisé Wordpress.',
-		tags: ['Site web', 'WordPress'],
+		get context() {
+			return m['projects.hatchr.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.hatchr.tags.${key}`]()
+			);
+		},
 		slug: 'hatchr',
 		external_link: 'https://hatchr.fr/'
 	},
 	{
 		title: 'Jigogne',
-		subtitle: 'Site de services dans le BTP',
-		description:
-			'Jigogne est un site de présentation de services dans le BTP, spécialisé dans la vente de terrain, les projets de construction ou encore les expertises techniques.',
+		get subtitle() {
+			return m['projects.jigogne.subtitle']();
+		},
+		get description() {
+			return m['projects.jigogne.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Jigogne/Jigogne_Home.png',
@@ -663,17 +774,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/sass.svg'
 			}
 		],
-		context:
-			'Jigogne est un site web développé pour un·e client·e. Basé sur un thème wordpress personnalisé principalement développé en PHP.',
-		tags: ['Site web', 'WordPress'],
+		get context() {
+			return m['projects.jigogne.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.jigogne.tags.${key}`]()
+			);
+		},
 		slug: 'jigogne',
 		external_link: 'https://jigogne.com/'
 	},
 	{
 		title: 'Tarot Africain',
-		subtitle: 'Jeu de cartes en ligne multijoueur',
-		description:
-			"Le Tarot Africain est une variante du jeu de tarot traditionnel. Il est connu sous plusieurs noms et se joue avec les atouts du jeu de base. C'est un jeu de plis dans lequel les joueurs doivent deviner le nombre exacts de plis qu'ils remporteront. Il se joue généralement à 4 joueurs, mais peut également se jouer à 3 ou 5 joueurs.",
+		get subtitle() {
+			return m['projects.tarot-africain.subtitle']();
+		},
+		get description() {
+			return m['projects.tarot-africain.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Tarot-Africain/Tarot-Africain_Home.png',
@@ -708,17 +828,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Le Tarot Africain est un projet personnel que j'ai développé dans mon temps libre. Je suis d'ailleurs parti de ce projet pour créer un template de jeu multijoueur en ligne tour par tour, développé en SvelteKit, TypeScript et Socket.io, et que j'utilise pour mes projets du même type. Le projet n'est pas encore terminé à 100% même s'il est fonctionnel dans la cas d'une 1ère version jouable. Quelques fonctionalités restent à implémenter et surtout toute la partie Design et UI/UX du jeu.",
-		tags: ['Jeu', 'Multijoueur', 'En ligne'],
+		get context() {
+			return m['projects.tarot-africain.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.tarot-africain.tags.${key}`]()
+			);
+		},
 		slug: 'tarot-africain',
 		external_link: 'https://tarot-mexicain.maximelust.fr/'
 	},
 	{
 		title: 'La Burie',
-		subtitle: "Site de chambres d'hôtes",
-		description:
-			"La Burie est un site de chambres d'hôtes de Charente-Maritime (Saint-Savinien), permettant aux visiteurs de découvrir les différentes chambres mises à disposition, les activités et services proposés, ainsi que de réserver des nuitées en ligne.",
+		get subtitle() {
+			return m['projects.laburie.subtitle']();
+		},
+		get description() {
+			return m['projects.laburie.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/LaBurie/LaBurie_Home.png',
@@ -757,17 +886,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/javascript.svg'
 			}
 		],
-		context:
-			"LaBurie est un des premiers sites que j'ai pu développer, pour mettre en avant l'activité de ma mère. C'est un OnePage simple en HTML, CSS et JavaScript.",
-		tags: ['Site web'],
+		get context() {
+			return m['projects.laburie.context']();
+		},
+		tagKeys: ['one'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.laburie.tags.${key}`]()
+			);
+		},
 		slug: 'laburie',
 		external_link: 'https://laburie.com/'
 	},
 	{
 		title: 'Metal Access',
-		subtitle: "Site associatif d'accessibilité pour festivals",
-		description:
-			"Metal Access est un site pour une association qui a pour but d'accompagner les festivals dans la mise en accessibilité de leurs évènements.",
+		get subtitle() {
+			return m['projects.metal-access.subtitle']();
+		},
+		get description() {
+			return m['projects.metal-access.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Metal-Access/Metal-Access_Home.png',
@@ -806,17 +944,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/notion.svg'
 			}
 		],
-		context:
-			"Metal access a été realisé en seulement quelques jours avec un blog connecté avec l'API proposée par Notion, dans le cadre d'un projet étudiant.",
-		tags: ['Site web'],
+		get context() {
+			return m['projects.metal-access.context']();
+		},
+		tagKeys: ['one'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.metal-access.tags.${key}`]()
+			);
+		},
 		slug: 'metal-access',
 		external_link: 'https://metal-access.maximelust.fr/'
 	},
 	{
 		title: 'FixMyStreet',
-		subtitle: 'PWA de signalements de défauts routiers',
-		description:
-			"FixMyStreet est une Progressive Web App (PWA) principalement axée sur les cyclistes / piétons qui permet aux citoyen·nes de signaler des défauts routiers dans leur ville, tels que des nids-de-poule, des lampadaires cassés ou encore des panneaux de signalisation ou marquages manquants. L'application permet également de suivre l'état des signalements et de recevoir des notifications lorsque ceux-ci sont traités.",
+		get subtitle() {
+			return m['projects.fixmystreet.subtitle']();
+		},
+		get description() {
+			return m['projects.fixmystreet.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Home.png',
@@ -848,17 +995,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"FixMyStreet est mon projet de fin d'études développé en équipe de 3 personnes. Elle contient 2 parties : la partie utilisateur·rice et la partie administrateur·rice. La partie utilisateur·rice permet de signaler des défauts routiers, tandis que la partie administrateur·rice permet de gérer les signalements et de les traiter.",
-		tags: ['PWA', 'BDD'],
+		get context() {
+			return m['projects.fixmystreet.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.fixmystreet.tags.${key}`]()
+			);
+		},
 		slug: 'fixmystreet',
 		external_link: 'https://fixmystreet.maximelust.fr/'
 	},
 	{
 		title: 'Nautilus',
-		subtitle: 'Support de Motion Design',
-		description:
-			'Nautilus est un petit site permettant de présenter un Motion Design avec une timeline des évènements liée à celui-ci.',
+		get subtitle() {
+			return m['projects.nautilus.subtitle']();
+		},
+		get description() {
+			return m['projects.nautilus.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Nautilus/Nautilus_Home.png',
@@ -885,16 +1041,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Nautilus a été réalisé en très peu de temps dans le but d'intéragir avec le Motion Design et de présenter les différentes étapes de celui-ci, dnas le cadre d'un projet étudiant.",
-		tags: ['Site web'],
+		get context() {
+			return m['projects.nautilus.context']();
+		},
+		tagKeys: ['one'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.nautilus.tags.${key}`]()
+			);
+		},
 		slug: 'nautilus',
 		external_link: 'https://nautilus.maximelust.fr/'
 	},
 	{
 		title: 'Egol',
-		subtitle: 'Site humouristique de présentation de marque',
-		description: "Egol est un site OnePage humouristique de présentation d'une marque fictive.",
+		get subtitle() {
+			return m['projects.egol.subtitle']();
+		},
+		get description() {
+			return m['projects.egol.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Egol/Egol_Home.png',
@@ -929,16 +1095,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context: "Egol a été réalisé en seulement quelques jours dans le cadre d'un projet étudiant.",
-		tags: ['Site web'],
+		get context() {
+			return m['projects.egol.context']();
+		},
+		tagKeys: ['one'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.egol.tags.${key}`]()
+			);
+		},
 		slug: 'egol',
 		external_link: 'https://egol.maximelust.fr/'
 	},
 	{
 		title: 'Porsche',
-		subtitle: 'Site OnePage avec 3D',
-		description:
-			'Porsche est un site OnePage présentant les caractéritiques de la fameuse 911 GT2 RS',
+		get subtitle() {
+			return m['projects.porsche.subtitle']();
+		},
+		get description() {
+			return m['projects.porsche.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Porsche/Porsche_Home.png',
@@ -985,17 +1161,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Porsche est un site OnePage développé dans le cadre d'un cours dédié à Three.js et WebGL. Il contient des shaders et des animations 3D avec des jeux de lumière, une personnalisation des couleurs, etc.",
-		tags: ['Site web', 'Three.js', 'WebGL'],
+		get context() {
+			return m['projects.porsche.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.porsche.tags.${key}`]()
+			);
+		},
 		slug: 'porsche',
 		external_link: 'https://porsche.maximelust.fr/'
 	},
 	{
 		title: 'Too Well Stolen',
-		subtitle: "Site web intéractif de jeu d'enquête",
-		description:
-			"Too Well Stolen est un site web intéractif de jeu d'enquête, dans lequel le joueur doit résoudre une affaire de vol d'oeuvre d'art en interrogeant des suspects et en collectant des indices.",
+		get subtitle() {
+			return m['projects.too-well-stolen.subtitle']();
+		},
+		get description() {
+			return m['projects.too-well-stolen.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Home.png',
@@ -1030,17 +1215,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Too Well Stolen a été réalisé en quelques jours dans le cadre d'un projet étudiant. Il était destiné à être testé au MusBA (Musée des Beaux-Arts) de Bordeaux à une certaine période durant laquelle les oeuvres utilisées et leurs emplacements étaient nécessaires au bon déroulement du jeu d'enquête.",
-		tags: ['Site web', 'Three.js', 'WebGL'],
+		get context() {
+			return m['projects.too-well-stolen.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.too-well-stolen.tags.${key}`]()
+			);
+		},
 		slug: 'too-well-stolen',
 		external_link: 'https://too-well-stolen.vercel.app/'
 	},
 	{
 		title: 'Bovelo',
-		subtitle: 'Application de vélos en libre-service + site de présentation',
-		description:
-			"Bovélo est un prototype d'application de location de vélos en libre-service, qui permet aux utilisateurs de localiser les stations de vélos disponibles, de réserver un vélo et de le déverrouiller pour l'utiliser. De plus, un site de présentation accompagne l'application afin de la mettre en avant.",
+		get subtitle() {
+			return m['projects.bovelo.subtitle']();
+		},
+		get description() {
+			return m['projects.bovelo.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Bovelo/Bovelo_Home.png',
@@ -1079,17 +1273,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Bovélo a été réalisé en quelques jours dans le cadre d'un projet étudiant. L'application a été prototypée sur Figma par une équipe de 5 personnes.",
-		tags: ['Application web', 'Prototype', 'Site web'],
+		get context() {
+			return m['projects.bovelo.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.bovelo.tags.${key}`]()
+			);
+		},
 		slug: 'bovelo',
 		external_link: 'https://bovelo.netlify.app/'
 	},
 	{
 		title: 'CAPC',
-		subtitle: 'Refonte de site web',
-		description:
-			"CAPC est une refonte du site web du musée d'art contemporain de Bordeaux, qui permet de découvrir les expositions, les collections et les événements proposés par le musée.",
+		get subtitle() {
+			return m['projects.capc.subtitle']();
+		},
+		get description() {
+			return m['projects.capc.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/CAPC/CAPC_Home.png',
@@ -1124,17 +1327,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/bootstrap.svg'
 			}
 		],
-		context:
-			"CAPC a été ralisé en quelques jours dans le cadre d'un projet étudiant par une équipe de 5 personnes. Il avait en autre pour but de découvrir l'environnement de Bootstrap. Seule la page d'accueil et la page de la première exposition (/event) ont été réalisées.",
-		tags: ['Site web', 'Refonte'],
+		get context() {
+			return m['projects.capc.context']();
+		},
+		tagKeys: ['one', 'two'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.capc.tags.${key}`]()
+			);
+		},
 		slug: 'capc',
 		external_link: 'https://capc.netlify.app/#'
 	},
 	{
 		title: 'Spooon',
-		subtitle: "Web app de gestion d'énergie quotidienne",
-		description:
-			"Spooon est une web app permettant la gestion de son réservoir d'énergie au quotidien. Elle s'applique principalement pour des personnes atteintes d'autisme et est basée sur la théorie des cuillères de Christine Miserandino",
+		get subtitle() {
+			return m['projects.spooon.subtitle']();
+		},
+		get description() {
+			return m['projects.spooon.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/Spooon/Spooon_Home.png',
@@ -1169,17 +1381,26 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/tailwind.svg'
 			}
 		],
-		context:
-			"Spooon a été réalisé en quelques jours par une équipe de 9 personnes, dont 2 développeur·euses, dans le cadre d'un projet étudiant.",
-		tags: ['Application web'],
+		get context() {
+			return m['projects.spooon.context']();
+		},
+		tagKeys: ['one'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.spooon.tags.${key}`]()
+			);
+		},
 		slug: 'spooon',
 		external_link: 'https://app.spooon.mmibordeaux.com/'
 	},
 	{
 		title: 'The Mornful Painter',
-		subtitle: "Jeu de plateforme et d'énigmes 2D",
-		description:
-			"The Mornful Painter est un jeu de plateforme et d'énigmes 2D dans lequel le joueur incarne une âme en quête de ses souvenirs. à chaque tableau trouvé, le joueur voit apparaître une nouvelle couleur permettant de débloquer de nouvelles zones et de nouveaux tableaux.",
+		get subtitle() {
+			return m['projects.the-mornful-painter.subtitle']();
+		},
+		get description() {
+			return m['projects.the-mornful-painter.description']();
+		},
 		images: {
 			home: {
 				src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Home.png',
@@ -1214,9 +1435,15 @@ export const projects: ProjectType[] = [
 				icon: '/src/lib/assets/icons/itchio.svg'
 			}
 		],
-		context:
-			"The Mornful Painter a été réalisé en quelques jours par une équipe de 5 personnes, dont 2 développeur·euses, dans le cadre d'un projet étudiant.",
-		tags: ['Jeu vidéo', 'Plateforme', 'Énigmes'],
+		get context() {
+			return m['projects.the-mornful-painter.context']();
+		},
+		tagKeys: ['one', 'two', 'three'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.the-mornful-painter.tags.${key}`]()
+			);
+		},
 		slug: 'the-mornful-painter',
 		external_link: 'https://la-machine-a-cafe.itch.io/the-mournful-painter'
 	}
@@ -1245,7 +1472,8 @@ export interface ProjectType {
 		icon: string;
 	}[];
 	context: string;
-	tags?: string[];
+	tagKeys?: readonly string[];
+	tags: string[];
 	slug: string;
 	external_link?: string;
 }

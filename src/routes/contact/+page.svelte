@@ -9,7 +9,7 @@
 		whatsapp: '+33 6 06 06 06 06'
 	};
 
-	function handleSubmit(event: SubmitEvent) {
+	async function handleSubmit(event: SubmitEvent) {
 		event.preventDefault();
 
 		const form = event.currentTarget as HTMLFormElement;
@@ -17,7 +17,27 @@
 
 		const data = Object.fromEntries(formData.entries());
 
-		console.log(data);
+		try {
+			const response = await fetch('/api/contact', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(data)
+			});
+
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result.error || 'Une erreur est survenue.');
+			}
+
+			console.log('Message envoyé !');
+
+			form.reset();
+		} catch (error) {
+			console.error(error);
+		}
 	}
 </script>
 
@@ -77,6 +97,7 @@
 			</select>
 			) : (
 			<input
+				class="w-80"
 				type={contactMethod === 'email' ? 'email' : 'text'}
 				name="contact"
 				placeholder={contactPlaceholders[contactMethod]}
