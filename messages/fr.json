@@ -18,6 +18,7 @@
 	},
 	"projects": {
 		"title": "Projets",
+		"link": "Visiter le site",
 		"lsd": {
 			"subtitle": "Jeu de société mulitjoueur en ligne",
 			"description": "Let's Summon Demons est un jeu de société en ligne multijoueur où les joueurs doivent invoquer des démons pour gagner la partie. Le jeu se déroule dans un univers rétro satanique et propose des mécaniques de stratégie et de coopération.",

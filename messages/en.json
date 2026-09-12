@@ -18,6 +18,7 @@
 	},
 	"projects": {
 		"title": "Projects",
+		"link": "Visit the website",
 		"lsd": {
 			"subtitle": "Online multiplayer board game",
 			"description": "Let's Summon Demons is an online multiplayer board game where players must summon demons to win the game. The game takes place in a retro satanic universe and offers strategy and cooperation mechanics.",
