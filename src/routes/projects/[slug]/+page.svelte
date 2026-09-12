@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageProps } from './$types';
+	import { m } from '$lib/paraglide/messages.js';
 
 	let { data }: PageProps = $props();
 
@@ -187,7 +188,7 @@
 			rel="noreferrer"
 			class="flex items-center gap-1 rounded-full bg-theme-black px-4 py-1 text-theme-white"
 		>
-			Visiter le site
+			{m['projects.link']()}
 			<svg
 				width="100%"
 				height="100%"
