@@ -9,14 +9,14 @@
 
 <Hero />
 <RandomBinaryNumber />
-<div class="pb-4">
-	<Marquee classes="-mt-4">
-		<h2 class="pr-8 font-obviously text-9xl font-black uppercase">
+<div class="pb-2 lg:pb-4">
+	<Marquee classes="lg:-mt-4">
+		<h2 class="pr-8 font-obviously text-3xl font-black uppercase md:text-6xl lg:text-9xl">
 			{m['homepage.hero.role']()}
 		</h2>
 	</Marquee>
 	<Marquee direction="right">
-		<h2 class="pr-8 font-obviously text-9xl font-black uppercase">
+		<h2 class="pr-8 font-obviously text-3xl font-black uppercase md:text-6xl lg:text-9xl">
 			{m['homepage.hero.role']()}
 		</h2>
 	</Marquee>
