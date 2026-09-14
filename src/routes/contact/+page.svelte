@@ -41,75 +41,84 @@
 	}
 </script>
 
-<h2>{m['header.contact']()}</h2>
-
 <section class="flex h-screen-dvh items-center justify-center bg-theme-white text-theme-black">
-	<form class="flex max-w-3xl flex-col text-2xl font-semibold" onsubmit={handleSubmit}>
+	<form class="flex max-w-4xl flex-col text-2xl font-semibold p-5 md:p-0 mt-18" onsubmit={handleSubmit}>
 		<span>{m['contact.hello']()}</span>
 
 		<span>
-			{m['contact.name']()} (
-			<input type="text" name="name" bind:value={name} placeholder="John Doe" required />
-			).
+			{m['contact.name']()} 
+			<span class="flex">
+				(<input type="text" name="name" bind:value={name} placeholder="John Doe" required />).
+			</span>
 		</span>
 
 		<span>
-			{m['contact.wanted']()} (
-			<select name="projectType" required>
-				<option value="landing-page">{m['contact.reasons.landing-page']()}</option>
-				<option value="multipage">{m['contact.reasons.multipage']()}</option>
-				<option value="web-app">{m['contact.reasons.web-app']()}</option>
-				<option value="online-game">{m['contact.reasons.online-game']()}</option>
-				<option value="other">{m['contact.reasons.other']()}</option>
-			</select>
-			) {m['contact.date']()} (
-			<input type="month" name="deadline" required />
-			).
+			{m['contact.wanted']()} 
+			<span class='flex'>
+				(<select name="projectType" required>
+					<option value="landing-page">{m['contact.reasons.landing-page']()}</option>
+					<option value="multipage">{m['contact.reasons.multipage']()}</option>
+					<option value="web-app">{m['contact.reasons.web-app']()}</option>
+					<option value="online-game">{m['contact.reasons.online-game']()}</option>
+					<option value="other">{m['contact.reasons.other']()}</option>
+				</select>)
+			</span>
+			{m['contact.date']()}
+			<span class='flex'>
+				(<input type="month" name="deadline" required />).
+			</span>
 		</span>
 
-		<span>
-			{m['contact.budget']()} (
-			<input
-				class="w-25"
-				type="number"
-				name="budget"
-				placeholder="10000"
-				value="10000"
-				step="1000"
-				required
-			/>
-			) €.
+		<span class="flex">
+			{m['contact.budget']()} 
+			<span class='flex'>
+				(<input
+					class="w-25"
+					type="number"
+					name="budget"
+					placeholder="10000"
+					value="10000"
+					step="1000"
+					required
+				/>) €.
+			</span>
 		</span>
 
-		<div class="flex whitespace-nowrap">
-			{m['contact.message']()} : (<textarea
+		<div class="flex flex-col whitespace-nowrap">
+			{m['contact.message']()} : 
+			<span class='flex'>
+				(<textarea
 				class="w-full"
 				name="message"
 				placeholder={m['contact.message_placeholder']()}
 				required></textarea>).
+			</span>
 		</div>
 
 		<span>
-			{m['contact.contact']()} (
-			<select name="contactMethod" bind:value={contactMethod} required>
-				<option value="email">Email</option>
-				<option value="whatsapp">WhatsApp</option>
-			</select>
-			) : (
-			<input
-				class="w-80"
-				type={contactMethod === 'email' ? 'email' : 'text'}
-				name="contact"
-				placeholder={contactPlaceholders[contactMethod]}
-				required
-			/>
-			).
+			{m['contact.contact']()}
+			<span class='flex'>
+				(<select name="contactMethod" bind:value={contactMethod} required>
+					<option value="email">Email</option>
+					<option value="whatsapp">WhatsApp</option>
+				</select>) :
+			</span>
+			<span class='flex'>
+		 		(<input
+					class="w-80"
+					type={contactMethod === 'email' ? 'email' : 'text'}
+					name="contact"
+					placeholder={contactPlaceholders[contactMethod]}
+					required
+				/>).
+			</span>
 		</span>
 
 		<span>
-			{m['contact.kind_regards']()}, (
-			<input type="text" name="signature" bind:value={name} placeholder="John Doe" required />
-			).
+			{m['contact.kind_regards']()}, 
+			<span class='flex'>
+				(<input type="text" name="signature" bind:value={name} placeholder="John Doe" required />).
+			</span>
 		</span>
 
 		<button type="submit" class="mt-4 w-fit rounded bg-theme-black px-4 py-2 text-theme-white">

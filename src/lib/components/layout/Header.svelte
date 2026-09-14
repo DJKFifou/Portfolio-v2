@@ -40,7 +40,7 @@
 		</button>
 		{#if menuOpen}
 			<div
-				class="fixed inset-0 z-50 flex flex-col items-center justify-center gap-8 bg-theme-white text-theme-black md:hidden"
+				class="fixed inset-0 z-50 flex flex-col items-center justify-center gap-6 bg-theme-white text-theme-black md:hidden"
 			>
 				{#each menu as item, i (i)}
 					<a
