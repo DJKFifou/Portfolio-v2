@@ -189,6 +189,14 @@
 				"one": "Website"
 			}
 		},
+		"refuge-canin": {
+			"subtitle": "Non-profit dog shelter website",
+			"description": "Refuge Canin is a non-profit website showcasing a dog shelter.",
+			"context": "Refuge Canin was created in just a few days as part of a student project. Only the home and contact pages were created.",
+			"tags": {
+				"one": "Website"
+			}
+		},
 		"porsche": {
 			"subtitle": "OnePage website with 3D",
 			"description": "Porsche is a OnePage website presenting the characteristics of the famous 911 GT2 RS",

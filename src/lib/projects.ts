@@ -1108,6 +1108,64 @@ export const projects: ProjectType[] = [
 		external_link: 'https://egol.maximelust.fr/'
 	},
 	{
+		title: 'Refuge Canin Solidaire',
+		get subtitle() {
+			return m['projects.refuge-canin.subtitle']();
+		},
+		get description() {
+			return m['projects.refuge-canin.description']();
+		},
+		images: {
+			home: {
+				src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Home.png',
+				alt: 'Refuge Canin Home'
+			},
+			gallery: [
+				{
+					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Description.png',
+					alt: 'Refuge-Canin Description'
+				},
+				{
+					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_LastAdopted.png',
+					alt: 'Refuge-Canin Last Adopted'
+				},
+				{
+					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Pathway.png',
+					alt: 'Refuge-Canin Pathway'
+				},
+				{
+					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Footer.png',
+					alt: 'Refuge-Canin Footer'
+				}
+			]
+		},
+		technologies: [
+			{
+				title: 'Astro',
+				icon: '/src/lib/assets/icons/astro.svg'
+			},
+			{
+				title: 'GSAP',
+				icon: '/src/lib/assets/icons/gsap.svg'
+			},
+			{
+				title: 'Tailwind',
+				icon: '/src/lib/assets/icons/tailwind.svg'
+			}
+		],
+		get context() {
+			return m['projects.refuge-canin.context']();
+		},
+		tagKeys: ['one'] as const,
+		get tags() {
+			return this.tagKeys.map((key) =>
+				(m as Record<string, () => string>)[`projects.refuge-canin.tags.${key}`]()
+			);
+		},
+		slug: 'refuge-canin-solidaire',
+		external_link: 'https://refuge-canin-solidaire-azure.vercel.app/'
+	},
+	{
 		title: 'Porsche',
 		get subtitle() {
 			return m['projects.porsche.subtitle']();

@@ -189,6 +189,14 @@
 				"one": "Site web"
 			}
 		},
+		"refuge-canin": {
+			"subtitle": "Site assiociatif de refuge canin",
+			"description": "Refuge Canin est un site assiociatif de présentation d'un refuge canin.",
+			"context": "Refuge Canin a été réalisé en seulement quelques jours dans le cadre d'un projet étudiant. Seules les pages d'accueil et de contact ont été réalisées.",
+			"tags": {
+				"one": "Site web"
+			}
+		},
 		"porsche": {
 			"subtitle": "Site OnePage avec 3D",
 			"description": "Porsche est un site OnePage présentant les caractéritiques de la fameuse 911 GT2 RS",
