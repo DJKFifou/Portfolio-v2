@@ -1,27 +1,30 @@
 <script lang="ts">
 	import { m } from '$lib/paraglide/messages.js';
 	import ArrowsCursorCentered from '$lib/components/ArrowsCursorCentered.svelte';
+    import github from '$lib/assets/icons/github.svg';
+    import linkedin from '$lib/assets/icons/linkedin.svg';
+    import gmail from '$lib/assets/icons/gmail.svg';
 
 	const links = [
 		{
 			href: 'https://github.com/DJKFifou',
 			target: '_blank',
 			rel: 'noreferrer',
-			icon: '/src/lib/assets/icons/github.svg',
+			icon: github,
 			alt: 'GitHub'
 		},
 		{
 			href: 'https://www.linkedin.com/in/maxime-lust/',
 			target: '_blank',
 			rel: 'noreferrer',
-			icon: '/src/lib/assets/icons/linkedin.svg',
+			icon: linkedin,
 			alt: 'LinkedIn'
 		},
 		{
 			href: 'mailto:lust.maxime@outlook.fr',
 			target: '',
 			rel: '',
-			icon: '/src/lib/assets/icons/gmail.svg',
+			icon: gmail,
 			alt: 'Gmail'
 		}
 	];

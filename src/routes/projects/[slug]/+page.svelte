@@ -22,10 +22,10 @@
 	const maxTranslateY = 50;
 
 	const initialClip = {
-		topLeft: { x: 30, y: 50 },
-		topRight: { x: 70, y: 50 },
-		bottomRight: { x: 70, y: 80 },
-		bottomLeft: { x: 30, y: 80 }
+		topLeft: { x: 25, y: 30 },
+		topRight: { x: 75, y: 30 },
+		bottomRight: { x: 75, y: 70 },
+		bottomLeft: { x: 25, y: 70 }
 	};
 
 	const finalClip = {
@@ -67,7 +67,7 @@
 
 		scale = minScale + (maxScale - minScale) * progress;
 
-		translateY = minTranslateY + (maxTranslateY - minTranslateY) * (1 - scale);
+		translateY = minTranslateY - (maxTranslateY - minTranslateY) * (1 - scale);
 
 		opacity = 1 - progress * 2;
 
@@ -132,7 +132,7 @@
 	>
 		<p class="text-xl font-medium">{data.subtitle}</p>
 
-		<img src="/src/lib/assets/arrow-up-black.svg" alt="" class="h-5 rotate-180 object-contain" />
+		<img src="/arrow-up-black.svg" alt="" class="h-5 rotate-180 object-contain" />
 	</div>
 </section>
 

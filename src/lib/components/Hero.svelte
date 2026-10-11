@@ -76,7 +76,7 @@
 
 <section class="relative flex min-h-screen items-end bg-theme-white">
 	<img
-		src="/src/lib/assets/noise.png"
+		src="/noise.png"
 		alt=""
 		class="pointer-events-none fixed inset-0 z-0 h-full w-full opacity-30"
 	/>

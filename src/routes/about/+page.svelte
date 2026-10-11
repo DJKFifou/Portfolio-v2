@@ -83,38 +83,38 @@
 >
 	<h2 class="font-obviously text-7xl font-black">Technologies</h2>
 	<div class="flex max-w-2xl flex-wrap justify-center gap-10">
-		<img src="/src/lib/assets/icons/svelte.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/svelte.svg" alt="" class="h-14 bg-white object-contain p-2" />
 		<img
-			src="/src/lib/assets/icons/typescript.svg"
+			src="/icons/typescript.svg"
 			alt=""
 			class="h-14 bg-white object-contain p-2"
 		/>
 		<img
-			src="/src/lib/assets/icons/javascript.svg"
+			src="/icons/javascript.svg"
 			alt=""
 			class="h-14 bg-white object-contain p-2"
 		/>
-		<img src="/src/lib/assets/icons/tailwind.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/react.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/next.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/astro.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/socketio.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/php.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/tailwind.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/react.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/next.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/astro.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/socketio.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/php.svg" alt="" class="h-14 bg-white object-contain p-2" />
 		<img
-			src="/src/lib/assets/icons/wordpress.svg"
+			src="/icons/wordpress.svg"
 			alt=""
 			class="h-14 bg-white object-contain p-2"
 		/>
-		<img src="/src/lib/assets/icons/shopify.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/mysql.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/supabase.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/gsap.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/threejs.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/webgl.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/unity.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/go.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/html.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/sass.svg" alt="" class="h-14 bg-white object-contain p-2" />
-		<img src="/src/lib/assets/icons/css.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/shopify.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/mysql.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/supabase.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/gsap.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/threejs.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/webgl.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/unity.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/go.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/html.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/sass.svg" alt="" class="h-14 bg-white object-contain p-2" />
+		<img src="/icons/css.svg" alt="" class="h-14 bg-white object-contain p-2" />
 	</div>
 </section>

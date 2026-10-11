@@ -1,5 +1,7 @@
 import { m } from '$lib/paraglide/messages.js';
+
 export type TagKey = 'one' | 'two' | 'three';
+
 export const projects: ProjectType[] = [
 	{
 		title: "Let's Summon Demons",
@@ -11,28 +13,28 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/LSD/LSD_Home.png',
+				src: '/images/LSD/LSD_Home.png',
 				alt: "Let's Summon Demons Home"
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/LSD/LSD_Moodboard.png',
+				src: '/images/LSD/LSD_Moodboard.png',
 				alt: "Let's Summon Demons Moodboard"
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/LSD/LSD_Lobby.png',
+					src: '/images/LSD/LSD_Lobby.png',
 					alt: "Let's Summon Demons Lobby"
 				},
 				{
-					src: '/src/lib/assets/images/LSD/LSD_LobbyCreated.png',
+					src: '/images/LSD/LSD_LobbyCreated.png',
 					alt: "Let's Summon Demons Lobby created"
 				},
 				{
-					src: '/src/lib/assets/images/LSD/LSD_LobbyJoined.png',
+					src: '/images/LSD/LSD_LobbyJoined.png',
 					alt: "Let's Summon Demons Lobby joined"
 				},
 				{
-					src: '/src/lib/assets/images/LSD/LSD_Gameplay.png',
+					src: '/images/LSD/LSD_Gameplay.png',
 					alt: "Let's Summon Demons Gameplay"
 				}
 			]
@@ -40,19 +42,19 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'React',
-				icon: '/src/lib/assets/icons/react.svg'
+				icon: '/icons/react.svg'
 			},
 			{
 				title: 'TypeScript',
-				icon: '/src/lib/assets/icons/typescript.svg'
+				icon: '/icons/typescript.svg'
 			},
 			{
 				title: 'Socket.io',
-				icon: '/src/lib/assets/icons/socketio.svg'
+				icon: '/icons/socketio.svg'
 			},
 			{
 				title: 'TailwindCSS',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -76,28 +78,28 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/MFC/MFC_Home.png',
+				src: '/images/MFC/MFC_Home.png',
 				alt: 'Marin French Cheese Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/MFC/MFC_Moodboard.png',
+				src: '/images/MFC/MFC_Moodboard.png',
 				alt: 'Marin French Cheese Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/MFC/MFC_Craft.png',
+					src: '/images/MFC/MFC_Craft.png',
 					alt: 'Marin French Cheese Craft'
 				},
 				{
-					src: '/src/lib/assets/images/MFC/MFC_Slider.png',
+					src: '/images/MFC/MFC_Slider.png',
 					alt: 'Marin French Cheese Slider'
 				},
 				{
-					src: '/src/lib/assets/images/MFC/MFC_VisitUs.png',
+					src: '/images/MFC/MFC_VisitUs.png',
 					alt: 'Marin French Cheese Visit Us'
 				},
 				{
-					src: '/src/lib/assets/images/MFC/MFC_SingleProduct.png',
+					src: '/images/MFC/MFC_SingleProduct.png',
 					alt: 'Marin French Cheese Single Product'
 				}
 			]
@@ -105,15 +107,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Shopify',
-				icon: '/src/lib/assets/icons/shopify.svg'
+				icon: '/icons/shopify.svg'
 			},
 			{
 				title: 'TypeScript',
-				icon: '/src/lib/assets/icons/typescript.svg'
+				icon: '/icons/typescript.svg'
 			},
 			{
 				title: 'TailwindCSS',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -138,28 +140,28 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/White-Toque/White-Toque_Home.png',
+				src: '/images/White-Toque/White-Toque_Home.png',
 				alt: 'White-Toque Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/White-Toque/White-Toque_Moodboard.png',
+				src: '/images/White-Toque/White-Toque_Moodboard.png',
 				alt: 'White-Toque Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/White-Toque/White-Toque_Products.png',
+					src: '/images/White-Toque/White-Toque_Products.png',
 					alt: 'White-Toque Products'
 				},
 				{
-					src: '/src/lib/assets/images/White-Toque/White-Toque_ProductPage.png',
+					src: '/images/White-Toque/White-Toque_ProductPage.png',
 					alt: 'White-Toque Product Page'
 				},
 				{
-					src: '/src/lib/assets/images/White-Toque/White-Toque_Slider.png',
+					src: '/images/White-Toque/White-Toque_Slider.png',
 					alt: 'White-Toque Slider'
 				},
 				{
-					src: '/src/lib/assets/images/White-Toque/White-Toque_Footer.png',
+					src: '/images/White-Toque/White-Toque_Footer.png',
 					alt: 'White-Toque Footer'
 				}
 			]
@@ -167,19 +169,19 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'TypeScript',
-				icon: '/src/lib/assets/icons/typescript.svg'
+				icon: '/icons/typescript.svg'
 			},
 			{
 				title: 'TailwindCSS',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -204,24 +206,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Home.png',
+				src: '/images/Taillan-Medoc/Taillan-Medoc_Home.png',
 				alt: 'Taillan-Medoc Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Header.png',
+					src: '/images/Taillan-Medoc/Taillan-Medoc_Header.png',
 					alt: 'Taillan-Medoc Header'
 				},
 				{
-					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Sliders.png',
+					src: '/images/Taillan-Medoc/Taillan-Medoc_Sliders.png',
 					alt: 'Taillan-Medoc Sliders'
 				},
 				{
-					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Article.png',
+					src: '/images/Taillan-Medoc/Taillan-Medoc_Article.png',
 					alt: 'Taillan-Medoc Article'
 				},
 				{
-					src: '/src/lib/assets/images/Taillan-Medoc/Taillan-Medoc_Footer.png',
+					src: '/images/Taillan-Medoc/Taillan-Medoc_Footer.png',
 					alt: 'Taillan-Medoc Footer'
 				}
 			]
@@ -229,19 +231,19 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'TypeScript',
-				icon: '/src/lib/assets/icons/typescript.svg'
+				icon: '/icons/typescript.svg'
 			},
 			{
 				title: 'TailwindCSS',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -266,24 +268,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Geoquizz/Geoquizz_Home.png',
+				src: '/images/Geoquizz/Geoquizz_Home.png',
 				alt: 'Geoquizz Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Quizz.png',
+					src: '/images/Geoquizz/Geoquizz_Quizz.png',
 					alt: 'Geoquizz Quizz'
 				},
 				{
-					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Lists_Flags.png',
+					src: '/images/Geoquizz/Geoquizz_Lists_Flags.png',
 					alt: 'Geoquizz Lists Flags'
 				},
 				{
-					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Lists_States.png',
+					src: '/images/Geoquizz/Geoquizz_Lists_States.png',
 					alt: 'Geoquizz Lists States'
 				},
 				{
-					src: '/src/lib/assets/images/Geoquizz/Geoquizz_Lists_Countries.png',
+					src: '/images/Geoquizz/Geoquizz_Lists_Countries.png',
 					alt: 'Geoquizz Lists Countries'
 				}
 			]
@@ -291,15 +293,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'TypeScript',
-				icon: '/src/lib/assets/icons/typescript.svg'
+				icon: '/icons/typescript.svg'
 			},
 			{
 				title: 'TailwindCSS',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -324,28 +326,28 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Primizie/Primizie_Home.png',
+				src: '/images/Primizie/Primizie_Home.png',
 				alt: 'Primizie Home'
 			},
 			moodboard: {
-				src: '/src/lib/assets/images/Primizie/Primizie_Moodboard.png',
+				src: '/images/Primizie/Primizie_Moodboard.png',
 				alt: 'Primizie Moodboard'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Primizie/Primizie_Presentation.png',
+					src: '/images/Primizie/Primizie_Presentation.png',
 					alt: 'Primizie Presentation'
 				},
 				{
-					src: '/src/lib/assets/images/Primizie/Primizie_Slider.png',
+					src: '/images/Primizie/Primizie_Slider.png',
 					alt: 'Primizie Slider'
 				},
 				{
-					src: '/src/lib/assets/images/Primizie/Primizie_Cards.png',
+					src: '/images/Primizie/Primizie_Cards.png',
 					alt: 'Primizie Cards'
 				},
 				{
-					src: '/src/lib/assets/images/Primizie/Primizie_Footer.png',
+					src: '/images/Primizie/Primizie_Footer.png',
 					alt: 'Primizie Footer'
 				}
 			]
@@ -353,15 +355,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -386,24 +388,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Xplora/App/Xplora_App_Home.png',
+				src: '/images/Xplora/App/Xplora_App_Home.png',
 				alt: 'Xplora App Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Chat.png',
+					src: '/images/Xplora/App/Xplora_App_Chat.png',
 					alt: 'Xplora App chat'
 				},
 				{
-					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Live.png',
+					src: '/images/Xplora/App/Xplora_App_Live.png',
 					alt: 'Xplora App live'
 				},
 				{
-					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Students.png',
+					src: '/images/Xplora/App/Xplora_App_Students.png',
 					alt: 'Xplora App students'
 				},
 				{
-					src: '/src/lib/assets/images/Xplora/App/Xplora_App_Assignments.png',
+					src: '/images/Xplora/App/Xplora_App_Assignments.png',
 					alt: 'Xplora App assignments'
 				}
 			]
@@ -411,19 +413,19 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -448,24 +450,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Home.png',
+				src: '/images/Xplora/Website/Xplora_Website_Home.png',
 				alt: 'Xplora Website Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Programs.png',
+					src: '/images/Xplora/Website/Xplora_Website_Programs.png',
 					alt: 'Xplora Website Programs'
 				},
 				{
-					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_ProgramsGrid.png',
+					src: '/images/Xplora/Website/Xplora_Website_ProgramsGrid.png',
 					alt: 'Xplora Website ProgramsGrid'
 				},
 				{
-					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Destinations.png',
+					src: '/images/Xplora/Website/Xplora_Website_Destinations.png',
 					alt: 'Xplora Website Destinations'
 				},
 				{
-					src: '/src/lib/assets/images/Xplora/Website/Xplora_Website_Contact.png',
+					src: '/images/Xplora/Website/Xplora_Website_Contact.png',
 					alt: 'Xplora Website Contact'
 				}
 			]
@@ -473,19 +475,19 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -510,24 +512,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Jaya/Jaya_Home.png',
+				src: '/images/Jaya/Jaya_Home.png',
 				alt: 'Jaya Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Jaya/Jaya_Presentation.png',
+					src: '/images/Jaya/Jaya_Presentation.png',
 					alt: 'Jaya Presentation'
 				},
 				{
-					src: '/src/lib/assets/images/Jaya/Jaya_Box.png',
+					src: '/images/Jaya/Jaya_Box.png',
 					alt: 'Jaya Box'
 				},
 				{
-					src: '/src/lib/assets/images/Jaya/Jaya_Shopping.png',
+					src: '/images/Jaya/Jaya_Shopping.png',
 					alt: 'Jaya Shopping'
 				},
 				{
-					src: '/src/lib/assets/images/Jaya/Jaya_Footer.png',
+					src: '/images/Jaya/Jaya_Footer.png',
 					alt: 'Jaya Footer'
 				}
 			]
@@ -535,15 +537,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -568,24 +570,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Lagrange/Lagrange_Home.png',
+				src: '/images/Lagrange/Lagrange_Home.png',
 				alt: 'Lagrange Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Lagrange/Lagrange_Header.png',
+					src: '/images/Lagrange/Lagrange_Header.png',
 					alt: 'Lagrange Header'
 				},
 				{
-					src: '/src/lib/assets/images/Lagrange/Lagrange_Gallery.png',
+					src: '/images/Lagrange/Lagrange_Gallery.png',
 					alt: 'Lagrange Gallery'
 				},
 				{
-					src: '/src/lib/assets/images/Lagrange/Lagrange_Slider.png',
+					src: '/images/Lagrange/Lagrange_Slider.png',
 					alt: 'Lagrange Slider'
 				},
 				{
-					src: '/src/lib/assets/images/Lagrange/Lagrange_Collection.png',
+					src: '/images/Lagrange/Lagrange_Collection.png',
 					alt: 'Lagrange Collection'
 				}
 			]
@@ -593,11 +595,11 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -622,24 +624,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Home.png',
+				src: '/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Home.png',
 				alt: 'Tonnellerie Bel Air Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Header.png',
+					src: '/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Header.png',
 					alt: 'Tonnellerie Bel Air Header'
 				},
 				{
-					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Presentation.png',
+					src: '/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Presentation.png',
 					alt: 'Tonnellerie Bel Air Presentation'
 				},
 				{
-					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Gamme.png',
+					src: '/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Gamme.png',
 					alt: 'Tonnellerie Bel Air Gamme'
 				},
 				{
-					src: '/src/lib/assets/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Handmade.png',
+					src: '/images/Tonnellerie-Bel-Air/Tonnellerie-Bel-Air_Handmade.png',
 					alt: 'Tonnellerie Bel Air Handmade'
 				}
 			]
@@ -647,15 +649,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -680,24 +682,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Hatchr/Hatchr_Home.png',
+				src: '/images/Hatchr/Hatchr_Home.png',
 				alt: 'Hatchr Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Hatchr/Hatchr_Partners.png',
+					src: '/images/Hatchr/Hatchr_Partners.png',
 					alt: 'Hatchr Partners'
 				},
 				{
-					src: '/src/lib/assets/images/Hatchr/Hatchr_Slider.png',
+					src: '/images/Hatchr/Hatchr_Slider.png',
 					alt: 'Hatchr Slider'
 				},
 				{
-					src: '/src/lib/assets/images/Hatchr/Hatchr_Contact.png',
+					src: '/images/Hatchr/Hatchr_Contact.png',
 					alt: 'Hatchr Contact'
 				},
 				{
-					src: '/src/lib/assets/images/Hatchr/Hatchr_Footer.png',
+					src: '/images/Hatchr/Hatchr_Footer.png',
 					alt: 'Hatchr Footer'
 				}
 			]
@@ -705,15 +707,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'Sass',
-				icon: '/src/lib/assets/icons/sass.svg'
+				icon: '/icons/sass.svg'
 			}
 		],
 		get context() {
@@ -738,24 +740,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Jigogne/Jigogne_Home.png',
+				src: '/images/Jigogne/Jigogne_Home.png',
 				alt: 'Jigogne Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Jigogne/Jigogne_About.png',
+					src: '/images/Jigogne/Jigogne_About.png',
 					alt: 'Jigogne About'
 				},
 				{
-					src: '/src/lib/assets/images/Jigogne/Jigogne_Services.png',
+					src: '/images/Jigogne/Jigogne_Services.png',
 					alt: 'Jigogne Services'
 				},
 				{
-					src: '/src/lib/assets/images/Jigogne/Jigogne_Interventions.png',
+					src: '/images/Jigogne/Jigogne_Interventions.png',
 					alt: 'Jigogne Interventions'
 				},
 				{
-					src: '/src/lib/assets/images/Jigogne/Jigogne_Footer.png',
+					src: '/images/Jigogne/Jigogne_Footer.png',
 					alt: 'Jigogne Footer'
 				}
 			]
@@ -763,15 +765,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Wordpress',
-				icon: '/src/lib/assets/icons/wordpress.svg'
+				icon: '/icons/wordpress.svg'
 			},
 			{
 				title: 'PHP',
-				icon: '/src/lib/assets/icons/php.svg'
+				icon: '/icons/php.svg'
 			},
 			{
 				title: 'Sass',
-				icon: '/src/lib/assets/icons/sass.svg'
+				icon: '/icons/sass.svg'
 			}
 		],
 		get context() {
@@ -796,16 +798,16 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Tarot-Africain/Tarot-Africain_Home.png',
+				src: '/images/Tarot-Africain/Tarot-Africain_Home.png',
 				alt: 'Tarot Africain Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Tarot-Africain/Tarot-Africain_Lobby.png',
+					src: '/images/Tarot-Africain/Tarot-Africain_Lobby.png',
 					alt: 'Tarot Africain Lobby'
 				},
 				{
-					src: '/src/lib/assets/images/Tarot-Africain/Tarot-Africain_Gameplay.png',
+					src: '/images/Tarot-Africain/Tarot-Africain_Gameplay.png',
 					alt: 'Tarot Africain Gameplay'
 				}
 			]
@@ -813,19 +815,19 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Socket.io',
-				icon: '/src/lib/assets/icons/socketio.svg'
+				icon: '/icons/socketio.svg'
 			},
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'TypeScript',
-				icon: '/src/lib/assets/icons/typescript.svg'
+				icon: '/icons/typescript.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -850,24 +852,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/LaBurie/LaBurie_Home.png',
+				src: '/images/LaBurie/LaBurie_Home.png',
 				alt: 'La Burie Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/LaBurie/LaBurie_About.png',
+					src: '/images/LaBurie/LaBurie_About.png',
 					alt: 'La Burie About'
 				},
 				{
-					src: '/src/lib/assets/images/LaBurie/LaBurie_Activities.png',
+					src: '/images/LaBurie/LaBurie_Activities.png',
 					alt: 'La Burie Activities'
 				},
 				{
-					src: '/src/lib/assets/images/LaBurie/LaBurie_Spaces.png',
+					src: '/images/LaBurie/LaBurie_Spaces.png',
 					alt: 'La Burie Spaces'
 				},
 				{
-					src: '/src/lib/assets/images/LaBurie/LaBurie_Contact.png',
+					src: '/images/LaBurie/LaBurie_Contact.png',
 					alt: 'La Burie Contact'
 				}
 			]
@@ -875,15 +877,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'HTML',
-				icon: '/src/lib/assets/icons/html.svg'
+				icon: '/icons/html.svg'
 			},
 			{
 				title: 'CSS',
-				icon: '/src/lib/assets/icons/css.svg'
+				icon: '/icons/css.svg'
 			},
 			{
 				title: 'JavaScript',
-				icon: '/src/lib/assets/icons/javascript.svg'
+				icon: '/icons/javascript.svg'
 			}
 		],
 		get context() {
@@ -908,24 +910,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Metal-Access/Metal-Access_Home.png',
+				src: '/images/Metal-Access/Metal-Access_Home.png',
 				alt: 'Metal Access Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Test.png',
+					src: '/images/Metal-Access/Metal-Access_Test.png',
 					alt: 'Metal Access Test'
 				},
 				{
-					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Handicaps.png',
+					src: '/images/Metal-Access/Metal-Access_Handicaps.png',
 					alt: 'Metal Access Handicaps'
 				},
 				{
-					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Federation.png',
+					src: '/images/Metal-Access/Metal-Access_Federation.png',
 					alt: 'Metal Access Federation'
 				},
 				{
-					src: '/src/lib/assets/images/Metal-Access/Metal-Access_Signaletique.png',
+					src: '/images/Metal-Access/Metal-Access_Signaletique.png',
 					alt: 'Metal Access Signaletique'
 				}
 			]
@@ -933,15 +935,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			},
 			{
 				title: 'Notion',
-				icon: '/src/lib/assets/icons/notion.svg'
+				icon: '/icons/notion.svg'
 			}
 		],
 		get context() {
@@ -966,17 +968,17 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Home.png',
+				src: '/images/FixMyStreet/FixMyStreet_Home.png',
 				alt: 'FixMyStreet Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Login.png',
+					src: '/images/FixMyStreet/FixMyStreet_Login.png',
 					alt: 'FixMyStreet Login'
 				},
 
 				{
-					src: '/src/lib/assets/images/FixMyStreet/FixMyStreet_Signalement.png',
+					src: '/images/FixMyStreet/FixMyStreet_Signalement.png',
 					alt: 'FixMyStreet Signalement'
 				}
 			]
@@ -984,15 +986,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Supabase',
-				icon: '/src/lib/assets/icons/supabase.svg'
+				icon: '/icons/supabase.svg'
 			},
 			{
 				title: 'Next.js',
-				icon: '/src/lib/assets/icons/next.svg'
+				icon: '/icons/next.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1017,16 +1019,16 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Nautilus/Nautilus_Home.png',
+				src: '/images/Nautilus/Nautilus_Home.png',
 				alt: 'Nautilus Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Nautilus/Nautilus_Calme.png',
+					src: '/images/Nautilus/Nautilus_Calme.png',
 					alt: 'Nautilus Calme'
 				},
 				{
-					src: '/src/lib/assets/images/Nautilus/Nautilus_Etouffement.png',
+					src: '/images/Nautilus/Nautilus_Etouffement.png',
 					alt: 'Nautilus Etouffement'
 				}
 			]
@@ -1034,11 +1036,11 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1063,24 +1065,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Egol/Egol_Home.png',
+				src: '/images/Egol/Egol_Home.png',
 				alt: 'Egol Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Egol/Egol_Solutions.png',
+					src: '/images/Egol/Egol_Solutions.png',
 					alt: 'Egol Solutions'
 				},
 				{
-					src: '/src/lib/assets/images/Egol/Egol_Slider.png',
+					src: '/images/Egol/Egol_Slider.png',
 					alt: 'Egol Slider'
 				},
 				{
-					src: '/src/lib/assets/images/Egol/Egol_Testimonials.png',
+					src: '/images/Egol/Egol_Testimonials.png',
 					alt: 'Egol Testimonials'
 				},
 				{
-					src: '/src/lib/assets/images/Egol/Egol_Footer.png',
+					src: '/images/Egol/Egol_Footer.png',
 					alt: 'Egol Footer'
 				}
 			]
@@ -1088,11 +1090,11 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1117,24 +1119,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Home.png',
+				src: '/images/Refuge-Canin/Refuge-Canin_Home.png',
 				alt: 'Refuge Canin Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Description.png',
+					src: '/images/Refuge-Canin/Refuge-Canin_Description.png',
 					alt: 'Refuge-Canin Description'
 				},
 				{
-					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_LastAdopted.png',
+					src: '/images/Refuge-Canin/Refuge-Canin_LastAdopted.png',
 					alt: 'Refuge-Canin Last Adopted'
 				},
 				{
-					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Pathway.png',
+					src: '/images/Refuge-Canin/Refuge-Canin_Pathway.png',
 					alt: 'Refuge-Canin Pathway'
 				},
 				{
-					src: '/src/lib/assets/images/Refuge-Canin/Refuge-Canin_Footer.png',
+					src: '/images/Refuge-Canin/Refuge-Canin_Footer.png',
 					alt: 'Refuge-Canin Footer'
 				}
 			]
@@ -1142,15 +1144,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Astro',
-				icon: '/src/lib/assets/icons/astro.svg'
+				icon: '/icons/astro.svg'
 			},
 			{
 				title: 'GSAP',
-				icon: '/src/lib/assets/icons/gsap.svg'
+				icon: '/icons/gsap.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1175,24 +1177,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Porsche/Porsche_Home.png',
+				src: '/images/Porsche/Porsche_Home.png',
 				alt: 'Porsche Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Porsche/Porsche_Presentation.png',
+					src: '/images/Porsche/Porsche_Presentation.png',
 					alt: 'Porsche Presentation'
 				},
 				{
-					src: '/src/lib/assets/images/Porsche/Porsche_Description.png',
+					src: '/images/Porsche/Porsche_Description.png',
 					alt: 'Porsche Description'
 				},
 				{
-					src: '/src/lib/assets/images/Porsche/Porsche_Moteur.png',
+					src: '/images/Porsche/Porsche_Moteur.png',
 					alt: 'Porsche Moteur'
 				},
 				{
-					src: '/src/lib/assets/images/Porsche/Porsche_Personnalisation.png',
+					src: '/images/Porsche/Porsche_Personnalisation.png',
 					alt: 'Porsche Personnalisation'
 				}
 			]
@@ -1200,23 +1202,23 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Three.js',
-				icon: '/src/lib/assets/icons/threejs.svg'
+				icon: '/icons/threejs.svg'
 			},
 			{
 				title: 'WebGL',
-				icon: '/src/lib/assets/icons/webgl.svg'
+				icon: '/icons/webgl.svg'
 			},
 			{
 				title: 'Gsap',
-				icon: '/src/lib/assets/icons/gsap.svg'
+				icon: '/icons/gsap.svg'
 			},
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1241,24 +1243,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Home.png',
+				src: '/images/Too-Well-Stolen/Too-Well-Stolen_Home.png',
 				alt: 'Too Well Stolen Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Start.png',
+					src: '/images/Too-Well-Stolen/Too-Well-Stolen_Start.png',
 					alt: 'Too Well Stolen Start'
 				},
 				{
-					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Painting.png',
+					src: '/images/Too-Well-Stolen/Too-Well-Stolen_Painting.png',
 					alt: 'Too Well Stolen Painting'
 				},
 				{
-					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Suspect.png',
+					src: '/images/Too-Well-Stolen/Too-Well-Stolen_Suspect.png',
 					alt: 'Too Well Stolen Suspect'
 				},
 				{
-					src: '/src/lib/assets/images/Too-Well-Stolen/Too-Well-Stolen_Interrogated.png',
+					src: '/images/Too-Well-Stolen/Too-Well-Stolen_Interrogated.png',
 					alt: 'Too Well Stolen Interrogated'
 				}
 			]
@@ -1266,11 +1268,11 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/svelte.svg'
+				icon: '/icons/svelte.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1295,24 +1297,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Bovelo/Bovelo_Home.png',
+				src: '/images/Bovelo/Bovelo_Home.png',
 				alt: 'Bovélo Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Bovelo/Bovelo_Footer.png',
+					src: '/images/Bovelo/Bovelo_Footer.png',
 					alt: 'Bovélo Footer'
 				},
 				{
-					src: '/src/lib/assets/images/Bovelo/Bovelo_App_Home.png',
+					src: '/images/Bovelo/Bovelo_App_Home.png',
 					alt: 'Bovélo App Home'
 				},
 				{
-					src: '/src/lib/assets/images/Bovelo/Bovelo_App_Station.png',
+					src: '/images/Bovelo/Bovelo_App_Station.png',
 					alt: 'Bovélo App Station'
 				},
 				{
-					src: '/src/lib/assets/images/Bovelo/Bovelo_App_Bike.png',
+					src: '/images/Bovelo/Bovelo_App_Bike.png',
 					alt: 'Bovélo App Bike'
 				}
 			]
@@ -1320,15 +1322,15 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Figma',
-				icon: '/src/lib/assets/icons/figma.svg'
+				icon: '/icons/figma.svg'
 			},
 			{
 				title: 'HTML',
-				icon: '/src/lib/assets/icons/html.svg'
+				icon: '/icons/html.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1353,24 +1355,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/CAPC/CAPC_Home.png',
+				src: '/images/CAPC/CAPC_Home.png',
 				alt: 'CAPC Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/CAPC/CAPC_Evenement.png',
+					src: '/images/CAPC/CAPC_Evenement.png',
 					alt: 'CAPC Evenement'
 				},
 				{
-					src: '/src/lib/assets/images/CAPC/CAPC_ComingSoon.png',
+					src: '/images/CAPC/CAPC_ComingSoon.png',
 					alt: 'CAPC Coming Soon'
 				},
 				{
-					src: '/src/lib/assets/images/CAPC/CAPC_Exposition.png',
+					src: '/images/CAPC/CAPC_Exposition.png',
 					alt: 'CAPC Exposition'
 				},
 				{
-					src: '/src/lib/assets/images/CAPC/CAPC_Footer.png',
+					src: '/images/CAPC/CAPC_Footer.png',
 					alt: 'CAPC Footer'
 				}
 			]
@@ -1378,11 +1380,11 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'HTML',
-				icon: '/src/lib/assets/icons/html.svg'
+				icon: '/icons/html.svg'
 			},
 			{
 				title: 'Bootstrap',
-				icon: '/src/lib/assets/icons/bootstrap.svg'
+				icon: '/icons/bootstrap.svg'
 			}
 		],
 		get context() {
@@ -1407,24 +1409,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/Spooon/Spooon_Home.png',
+				src: '/images/Spooon/Spooon_Home.png',
 				alt: 'Spooon Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/Spooon/Spooon_Energie.png',
+					src: '/images/Spooon/Spooon_Energie.png',
 					alt: 'Spooon Energie'
 				},
 				{
-					src: '/src/lib/assets/images/Spooon/Spooon_Depense.png',
+					src: '/images/Spooon/Spooon_Depense.png',
 					alt: 'Spooon Depense'
 				},
 				{
-					src: '/src/lib/assets/images/Spooon/Spooon_Gain.png',
+					src: '/images/Spooon/Spooon_Gain.png',
 					alt: 'Spooon Gain'
 				},
 				{
-					src: '/src/lib/assets/images/Spooon/Spooon_About.png',
+					src: '/images/Spooon/Spooon_About.png',
 					alt: 'Spooon About'
 				}
 			]
@@ -1432,11 +1434,11 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'SvelteKit',
-				icon: '/src/lib/assets/icons/sveltekit.svg'
+				icon: '/icons/sveltekit.svg'
 			},
 			{
 				title: 'Tailwind',
-				icon: '/src/lib/assets/icons/tailwind.svg'
+				icon: '/icons/tailwind.svg'
 			}
 		],
 		get context() {
@@ -1461,24 +1463,24 @@ export const projects: ProjectType[] = [
 		},
 		images: {
 			home: {
-				src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Home.png',
+				src: '/images/The-Mornful-Painter/The-Mornful-Painter_Home.png',
 				alt: 'The Mornful Painter Home'
 			},
 			gallery: [
 				{
-					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Gameplay.png',
+					src: '/images/The-Mornful-Painter/The-Mornful-Painter_Gameplay.png',
 					alt: 'The Mornful Painter Gameplay'
 				},
 				{
-					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Ladder.png',
+					src: '/images/The-Mornful-Painter/The-Mornful-Painter_Ladder.png',
 					alt: 'The Mornful Painter Ladder'
 				},
 				{
-					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Painting.png',
+					src: '/images/The-Mornful-Painter/The-Mornful-Painter_Painting.png',
 					alt: 'The Mornful Painter Painting'
 				},
 				{
-					src: '/src/lib/assets/images/The-Mornful-Painter/The-Mornful-Painter_Mirror.png',
+					src: '/images/The-Mornful-Painter/The-Mornful-Painter_Mirror.png',
 					alt: 'The Mornful Painter Mirror'
 				}
 			]
@@ -1486,11 +1488,11 @@ export const projects: ProjectType[] = [
 		technologies: [
 			{
 				title: 'Unity',
-				icon: '/src/lib/assets/icons/unity.svg'
+				icon: '/icons/unity.svg'
 			},
 			{
 				title: 'Itchi.io',
-				icon: '/src/lib/assets/icons/itchio.svg'
+				icon: '/icons/itchio.svg'
 			}
 		],
 		get context() {
