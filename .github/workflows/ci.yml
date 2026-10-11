@@ -50,4 +50,9 @@ jobs:
       - name: Restart service
         run: |
           ssh ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_IP }} \
-            "source .bashrc && cd ${{ secrets.DEPLOY_PATH }} && pm2 restart ${{ vars.PROJECT_NAME }}"
+            "source .bashrc && cd ${{ secrets.DEPLOY_PATH }} && \
+            if pm2 describe '${{ vars.PROJECT_NAME }}' > /dev/null 2>&1; then \
+              pm2 restart '${{ vars.PROJECT_NAME }}'; \
+            else \
+              pm2 start ecosystem.config.js; \
+            fi"
