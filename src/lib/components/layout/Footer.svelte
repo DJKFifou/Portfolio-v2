@@ -7,21 +7,21 @@
 			href: 'https://github.com/DJKFifou',
 			target: '_blank',
 			rel: 'noreferrer',
-			icon: '/src/lib/assets/icons/github.svg',
+			icon: '/icons/github.svg',
 			alt: 'GitHub'
 		},
 		{
 			href: 'https://www.linkedin.com/in/maxime-lust/',
 			target: '_blank',
 			rel: 'noreferrer',
-			icon: '/src/lib/assets/icons/linkedin.svg',
+			icon: '/icons/linkedin.svg',
 			alt: 'LinkedIn'
 		},
 		{
 			href: 'mailto:lust.maxime@outlook.fr',
 			target: '',
 			rel: '',
-			icon: '/src/lib/assets/icons/gmail.svg',
+			icon: '/icons/gmail.svg',
 			alt: 'Gmail'
 		}
 	];
